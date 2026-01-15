@@ -16,7 +16,9 @@
     <header class="page header">
       <img class="logo item" src="../images/main/logo.png" alt="Alumark" />
       <a href="/src/public/pages/index.html" class="item"><em>Home</em></a>
-      <a href="/src/public/pages/contato.html" class="item"><em>Contato</em></a>
+      <a href="/src/public/pages/contato.html" class="item"
+        ><em><strong>Contato</strong></em></a
+      >
       <a href="/src/public/pages/perfis.html" class="item"
         ><em>Perfis Industriais</em></a
       >
@@ -24,6 +26,65 @@
         <em>Construção Civil</em>
       </a>
     </header>
+    <main>
+      <div class="container">
+        <h1 class="main-title">Contato</h1>
+        <hr />
+        <div class="faq">
+          <div class="addresses">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d913.4435279764092!2d-46.3028807121811!3d-23.684034782383705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5b615efe8f99%3A0x438be8180d3501ac!2sAlumark%20Aluminios%20e%20Acess%C3%B3rios!5e0!3m2!1spt-PT!2sbr!4v1768505359568!5m2!1spt-PT!2sbr"
+              style="border: 0"
+              class="mapa"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <h1 class="title">Nossas redes sociais</h1>
+          </div>
+          <form action="" method="post">
+            <h1 class="title">Fale conosco</h1>
+            <label>Nome: </label>
+            <input
+              required
+              type="text"
+              class="inp-form"
+              name="nome"
+              placeholder="Nome"
+            />
+
+            <label>E-mail: </label>
+            <input
+              required
+              type="text"
+              placeholder="E-mail"
+              name="email"
+              class="inp-form"
+            />
+            <input type="hidden" name="_captcha" value="false" />
+            <label>Telefone: </label>
+            <input
+              required
+              type="text"
+              placeholder="Telefone"
+              name="phone"
+              class="inp-form"
+            />
+
+            <label>Sua mensagem: </label>
+            <textarea
+              required
+              type="text"
+              class="inp-form message"
+              rows="1"
+              placeholder="Envie sua mensagem"
+            ></textarea>
+
+            <button class="btn-form" type="submit">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </main>
 
     <footer class="page footer">
       <i class="bi bi-instagram item icon">
@@ -37,10 +98,11 @@
       </i>
 
       <p class="item">
-        <em> Alumark™ Todos os direitos reservados - <span id="year"></span></em>
+        <em>
+          Alumark™ Todos os direitos reservados - <span id="year"></span
+        ></em>
       </p>
     </footer>
-
     <script src="../scripts/index.js"></script>
   </body>
 </html>
