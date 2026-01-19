@@ -26,10 +26,15 @@
         <em>Construção Civil</em>
       </a>
     </header>
-    <main>
+
+    <main class="container">
+      <h1>hello world</h1>
+    </main>
+    <footer class="page footer ctt">
       <div class="container">
         <h1 class="main-title">Contato</h1>
         <hr />
+        <br />
         <div class="faq">
           <div class="addresses">
             <iframe
@@ -41,10 +46,25 @@
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
             <h1 class="title">Nossas redes sociais</h1>
+            <i class="bi bi-instagram item icon">
+              <a class="item" href="https://instagram.com">/Alumark</a>
+            </i>
+            <i class="bi bi-telephone item icon">
+              <a class="item" href="https://instagram.com">(11) 99999-9999</a>
+            </i>
+            <i class="bi bi-envelope item icon">
+              <a class="item icon" href="https://instagram.com"
+                >email@dominio.com</a
+              >
+            </i>
           </div>
-          <form action="" method="post">
+          <form
+            action="https://formsubmit.co/vinicios.augusto310@gmail.com"
+            method="POST"
+            data-form
+          >
             <h1 class="title">Fale conosco</h1>
-            <label>Nome: </label>
+            <label for="nome">Nome: </label>
             <input
               required
               type="text"
@@ -53,16 +73,16 @@
               placeholder="Nome"
             />
 
-            <label>E-mail: </label>
+            <label for="email">E-mail: </label>
             <input
               required
-              type="text"
+              type="email"
               placeholder="E-mail"
               name="email"
               class="inp-form"
             />
             <input type="hidden" name="_captcha" value="false" />
-            <label>Telefone: </label>
+            <label for="phone">Telefone: </label>
             <input
               required
               type="text"
@@ -71,31 +91,22 @@
               class="inp-form"
             />
 
-            <label>Sua mensagem: </label>
+            <label for="mensagem">Sua mensagem: </label>
             <textarea
               required
+              name="mensagem"
               type="text"
               class="inp-form message"
               rows="1"
               placeholder="Envie sua mensagem"
             ></textarea>
 
-            <button class="btn-form" type="submit">Enviar</button>
+            <button class="btn-form" id="btn-submit" type="submit" data-button>
+              Enviar
+            </button>
           </form>
         </div>
       </div>
-    </main>
-
-    <footer class="page footer">
-      <i class="bi bi-instagram item icon">
-        <a class="item" href="https://instagram.com">/Alumark</a>
-      </i>
-      <i class="bi bi-telephone item icon">
-        <a class="item" href="https://instagram.com">(11) 99999-9999</a>
-      </i>
-      <i class="bi bi-envelope item icon">
-        <a class="item icon" href="https://instagram.com">email@dominio.com</a>
-      </i>
 
       <p class="item">
         <em>

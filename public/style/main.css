@@ -19,8 +19,9 @@ main {
   padding: 20px;
 }
 .footer {
+  background: linear-gradient(to top, #044d91, #577694 70%, white 100%);
   flex-direction: column;
-
+  color: white;
   width: 100%;
 }
 .footer .item {
@@ -41,7 +42,7 @@ main {
   font-size: 1.5rem;
 }
 .icon {
-  font-size: 1rem;
+  font-size: 25px;
 }
 
 .logo {
@@ -89,6 +90,8 @@ form {
 }
 .addresses {
   width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 .inp-form {
   font-family: "Inter";
@@ -118,12 +121,19 @@ form label {
   font-weight: 600;
 }
 .btn-form {
+  cursor: pointer;
   width: 100%;
   border: none;
   border-radius: 8px;
   padding: 10px;
+  border: white solid 2px;
   background-color: #044d91;
   color: white;
   font-family: "Inter";
   font-weight: 600;
+}
+.success {
+}
+.ctt {
+  background: linear-gradient(to top, #044d91, #577694 70%, white 100%);
 }
