@@ -26,7 +26,8 @@ main {
   padding: 20px;
 }
 .footer {
-  background: linear-gradient(to top, #044d91, #577694 70%, white 100%);
+  padding-top: 100px;
+  background: linear-gradient(to top, #044d91, white 100%);
   flex-direction: column;
   color: white;
   width: 100%;
@@ -38,7 +39,6 @@ main {
 .header {
   width: 100%;
   align-items: center;
-  justify-content: space-between;
 }
 .page .item {
   font-family: "Inter";
@@ -48,12 +48,31 @@ main {
 }
 .header .item {
   font-size: 1.5rem;
+  padding: 40px;
+}
+.navbar {
+  width: 50%;
+}
+.navbar .item {
+  transition: font-size 0.5s;
+}
+.navbar li {
+  display: inline-block;
+  transition: display 0.5s;
+}
+.navbar a:hover {
+  font-size: 2rem;
+}
+.navbar ul {
+  height: 100%;
+  list-style-type: none;
 }
 .icon {
   font-size: 25px;
 }
 
 .logo {
+  margin: 10px;
   width: 200px;
   height: 50px;
 }
@@ -108,7 +127,9 @@ form {
   width: 100%;
   border: 1px solid;
   border-radius: 8px;
-  transition: border-color, box-shadow 0.2s;
+  transition:
+    border-color,
+    box-shadow 0.2s;
   font-size: inherit;
 }
 .message {
@@ -140,8 +161,20 @@ form label {
   font-family: "Inter";
   font-weight: 600;
 }
-.success {
+
+.dropdown-menu {
+  position: absolute;
+  display: none;
+  background-color: rgb(181, 184, 201);
 }
-.ctt {
-  background: linear-gradient(to top, #044d91, #577694 70%, white 100%);
+
+.dropdown-menu {
+  margin-top: 30px;
+}
+.dropdown-menu a {
+  display: block;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  transition: display 0.3s;
 }

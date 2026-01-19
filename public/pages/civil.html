@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -14,15 +14,36 @@
   </head>
   <body>
     <header class="page header">
-      <img class="logo item" src="../images/main/logo.png" alt="Alumark" />
-      <a href="/src/public/pages/index.html" class="item"><em>Home</em></a>
-      <a href="/src/public/pages/contato.html" class="item"><em>Contato</em></a>
-      <a href="/src/public/pages/perfis.html" class="item"
-        ><em>Perfis Industriais</em></a
-      >
-      <a href="/src/public/pages/civil.html" class="item">
-        <em>Construção Civil</em>
-      </a>
+      <img class="logo" src="../images/main/logo.png" alt="Alumark" />
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="/src/public/pages/index.html" class="item"
+              ><em><strong>Home</strong></em></a
+            >
+          </li>
+          <li>
+            <a href="/src/public/pages/contato.html" class="item"
+              ><em>Contato</em></a
+            >
+          </li>
+          <li class="dropdown">
+            <a href="/src/public/pages/perfis.html" class="item"
+              ><em>Perfis Industriais</em></a
+            >
+            <div class="dropdown-menu">
+              <a href="#" class="item">Perfil Industrial em Alumínio >></a>
+              <a href="#" class="item">Perfil em Alumínio >></a>
+              <a href="#" class="item">Esquadrias em Alumínio >></a>
+            </div>
+          </li>
+          <li>
+            <a href="/src/public/pages/civil.html" class="item">
+              <em>Construção Civil</em>
+            </a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main></main>
 
