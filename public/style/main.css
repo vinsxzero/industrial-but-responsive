@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+/* configurações gerais */
+
 * {
   box-sizing: border-box;
 }
@@ -19,12 +21,14 @@ main {
   flex: 1;
   align-items: center;
 }
+/*header e footer*/
 .page {
   background-color: #044d91;
   display: flex;
 
   padding: 20px;
 }
+/* footer */
 .footer {
   padding-top: 100px;
   background: linear-gradient(to top, #044d91, white 100%);
@@ -36,20 +40,24 @@ main {
   color: white;
   margin: 20px;
 }
+/* header */
 .header {
   width: 100%;
   align-items: center;
 }
+/* itens do header e footer */
 .page .item {
   font-family: "Inter";
   color: white;
 
   text-decoration: none;
 }
+/* links do header */
 .header .item {
   font-size: 1.5rem;
   padding: 40px;
 }
+/* navbar */
 .navbar {
   width: 50%;
 }
@@ -67,6 +75,20 @@ main {
   height: 100%;
   list-style-type: none;
 }
+/* aspectos visuais */
+/* #about-us {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  mask-image: linear-gradient(to right, #044d91 70%, transparent);
+} */
+#about-us {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
 .icon {
   font-size: 25px;
 }
@@ -83,11 +105,51 @@ main {
   font-weight: 200;
   font-size: 7rem;
 }
-
+.text-container * {
+  padding-left: 500px;
+}
 /* contact */
 hr {
   width: 1000px;
   margin: 3rem;
+}
+
+/* divs */
+/* .hero {
+  background: linear-gradient(to right, transparent, #044d91 70%);
+
+  min-height: 100%;
+  color: aliceblue;
+  padding: 50px;
+  font-size: 2em;
+  padding-left: 200px;
+} */
+.hero {
+  width: 50%;
+  color: aliceblue;
+
+  /* 🔥 AQUI ESTÁ O EFEITO */
+  background: linear-gradient(to left, #044d91 65%, rgba(4, 77, 145, 0) 100%);
+
+  padding: 80px;
+  font-size: 2em;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/* .about {
+  display: flex;
+  margin: 150px;
+  width: 80%;
+  height: 100%;
+}
+   */
+.about {
+  display: flex;
+  width: 80%;
+  margin: 150px auto;
+  min-height: 500px;
 }
 .container {
   width: 100%;
@@ -103,6 +165,7 @@ hr {
   margin: 1em;
   gap: 50px;
 }
+
 form {
   display: flex;
   width: 50%;
