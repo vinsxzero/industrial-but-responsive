@@ -91,3 +91,13 @@ var year = new Date().getFullYear();
 
 var rights = document.getElementById("year");
 rights.textContent = year;
+//selecionando item de mission
+const missionRow = document.querySelectorAll(".object .row");
+
+missionRow.forEach((row) => {
+  const arrow = row.querySelector(".arrow");
+
+  arrow.addEventListener("click", () => {
+    row.classList.toggle("selected");
+  });
+});
