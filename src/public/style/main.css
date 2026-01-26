@@ -1,5 +1,6 @@
+/* CONFIGURAÇÕES GERAIS */
+
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
-/* configurações gerais */
 
 * {
   box-sizing: border-box;
@@ -8,27 +9,30 @@ html,
 body {
   height: 100%;
   margin: 0;
+  background-color: #044d91;
 }
 body {
   margin: 0px;
-
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   height: 100%;
   width: 100%;
 }
 main {
+  background-color: white;
   flex: 1;
   align-items: center;
 }
-/*header e footer*/
+
+/* HEADER E FOOTER */
 .page {
   background-color: #044d91;
   display: flex;
 
   padding: 20px;
 }
-/* footer */
+
 .footer {
   padding-top: 100px;
   background: linear-gradient(to top, #044d91, white 100%);
@@ -40,25 +44,26 @@ main {
   color: white;
   margin: 20px;
 }
-/* header */
+
 .header {
   width: 100%;
   align-items: center;
 }
-/* itens do header e footer */
+
 .page .item {
   font-family: "Inter";
   color: white;
 
   text-decoration: none;
 }
-/* links do header */
+
 .header .item {
   font-size: 1.5rem;
   padding: 10px;
   padding-bottom: 40px;
 }
-/* navbar */
+
+/* NAVBAR */
 .navbar {
   width: 50%;
 }
@@ -76,93 +81,24 @@ main {
   height: 100%;
   list-style-type: none;
 }
-/* aspectos visuais */
-.object-btn {
+/* =======================
+   MISSÃO / VISÃO / VALORES
+======================= */
+.mission {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 30%;
   width: 100%;
-  color: white;
-  font-family: "Inter";
-}
-.mission-text {
-  width: 50%;
-  background-color: #0a457a;
-  color: white;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 80px;
+  height: 400px; /* altura fixa */
+  padding: 70px;
+  justify-content: space-around;
 }
 
 .mission * {
-  color: white;
   font-family: "Inter";
+  color: white;
+  margin: 0px;
 }
 
-.arrow {
-  font-size: 40px;
-  cursor: pointer;
-  justify-self: flex-end;
-  cursor: pointer;
-  grid-column-start: 5;
-}
-.icon {
-  font-size: 25px;
-}
-
-.logo {
-  margin: 10px;
-  width: 200px;
-  height: 50px;
-}
-.title {
-  font-family: "Noto Serif";
-}
-.main-title {
-  font-weight: 200;
-  font-size: 5rem;
-}
-.text-container * {
-  padding-left: 500px;
-}
-.mission h2 {
-  grid-column-start: 3;
-  cursor: pointer;
-}
-/* contact */
-hr {
-  width: 1000px;
-  margin: 3rem;
-}
-/* sections */
-.about {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  min-height: 600px;
-  padding: 70px;
-}
-/* divs */
-.row {
-  grid-template-rows: 1fr;
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  width: 100%;
-  height: 100%;
-  place-items: center;
-}
-.selected {
-  background-color: #0a457a;
-}
-.row:hover {
-  background-color: #0a457a;
-}
-.object .row {
-  transition: background-color, 1s;
-}
+/* BOTÕES */
 .object {
   display: grid;
 
@@ -171,13 +107,97 @@ hr {
   width: 50%;
   background-color: #1d7fda;
 }
-.mission {
-  display: flex;
+.row {
+  grid-template-rows: 1fr;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
   width: 100%;
-  padding: 70px;
-  justify-content: space-around;
+  height: 100%;
+  place-items: center;
+}
+.row:hover {
+  background-color: #0a457a;
+}
+.object .row {
+  transition: background-color, 1s;
+}
+.object .row.selected {
+  background-color: #0a457a;
+}
+.mission h2 {
+  grid-column-start: 3;
+  cursor: pointer;
+}
+.arrow {
+  font-size: 40px;
+
+  cursor: pointer;
+  grid-column-start: 5;
 }
 
+/* TEXTOS */
+.mission-text {
+  width: 50%;
+  height: 100%;
+  background-color: #0a457a;
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Conteúdo das abas */
+.mission-text .content {
+  display: none;
+}
+.mission-text .content.selected {
+  display: block;
+  animation: fade 0.3s ease-in-out;
+}
+
+/* Animação  */
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* TITULOS /LOGO */
+.logo {
+  margin: 10px;
+  width: 200px;
+  height: 50px;
+}
+.title {
+  font-family: "Noto Serif";
+}
+h1.main-title {
+  font-weight: 200;
+  font-size: 5rem;
+}
+h2.main-title {
+  font-size: 4rem;
+  font-weight: 150;
+}
+
+/* about */
+
+.about {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  min-height: 600px;
+  padding: 70px;
+}
+.content {
+  display: none;
+
+  pointer-events: none;
+}
 .about-img {
   position: relative;
   width: 50%;
@@ -206,6 +226,8 @@ hr {
   flex-direction: column;
   justify-content: center;
 }
+
+/* FORM/FAQ */
 .container {
   width: 100%;
   display: flex;
@@ -213,6 +235,7 @@ hr {
   justify-content: center;
   flex-direction: column;
 }
+
 .faq {
   width: 50%;
   height: 50%;
@@ -221,7 +244,6 @@ hr {
   margin: 1em;
   gap: 50px;
 }
-
 form {
   display: flex;
   width: 50%;
@@ -230,15 +252,13 @@ form {
   align-items: center;
   gap: 15px;
 }
-.mapa {
-  width: 100%;
-  height: 200px;
+form label {
+  align-self: flex-start;
+  font-family: "Inter";
+  font-size: larger;
+  font-weight: 600;
 }
-.addresses {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-}
+
 .inp-form {
   font-family: "Inter";
   padding: 10px;
@@ -262,12 +282,6 @@ form {
   border-color: #044d91;
   box-shadow: 0 0 0 3px #044d91;
 }
-form label {
-  align-self: flex-start;
-  font-family: "Inter";
-  font-size: larger;
-  font-weight: 600;
-}
 .btn-form {
   cursor: pointer;
   width: 100%;
@@ -280,6 +294,17 @@ form label {
   font-family: "Inter";
   font-weight: 600;
 }
+.addresses {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.mapa {
+  width: 100%;
+  height: 200px;
+}
+
+/* DROPDOWN */
 
 .dropdown-menu {
   position: absolute;
@@ -296,4 +321,27 @@ form label {
 .dropdown:hover .dropdown-menu {
   display: block;
   transition: display 0.3s;
+}
+
+/* Produtos */
+.container.products {
+  display: flex;
+  flex-direction: row;
+  gap: 10em;
+}
+
+/* cartões */
+.card {
+  height: 5em;
+  width: 5em;
+  padding: 1em;
+  background-color: aqua;
+  font-size: 3rem;
+  text-align: center;
+
+  align-content: center;
+}
+hr {
+  width: 1000px;
+  margin: 3rem;
 }
