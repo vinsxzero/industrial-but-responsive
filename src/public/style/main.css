@@ -308,6 +308,9 @@ form label {
 
 .dropdown-menu {
   position: absolute;
+  left: 0;
+  font-size: 1em;
+  width: 100%;
   display: none;
   background-color: rgb(181, 184, 201);
 }
@@ -330,16 +333,58 @@ form label {
   gap: 10em;
 }
 
+/* clientes */
+
+.clients {
+  width: 1000px;
+  margin: 40px auto;
+  overflow: hidden;
+}
+.carousel-track {
+  display: flex;
+  width: max-content;
+  height: 100%;
+  animation: scroll 20s linear infinite;
+}
+.clients .carousel-item {
+  flex: 0 0 25%;
+  aspect-ratio: 1 / 1;
+  margin: 0 12px;
+  padding: 2em;
+  box-sizing: border-box;
+  background-color: aqua;
+}
+.carousel-track:hover {
+  animation-play-state: paused;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
 /* cartões */
 .card {
   height: 5em;
   width: 5em;
   padding: 1em;
+
   background-color: aqua;
   font-size: 3rem;
   text-align: center;
-
+  transition:
+    width 0.3s,
+    height 0.3s;
   align-content: center;
+}
+.products .card:hover {
+  width: 6em;
+  height: 6em;
+  transition:
+    width 0.3s,
+    height 0.3s;
 }
 hr {
   width: 1000px;
