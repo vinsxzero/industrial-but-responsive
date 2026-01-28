@@ -15,6 +15,40 @@
   <body>
     <header class="page header">
       <img class="logo" src="../images/main/logo.png" alt="Alumark" />
+      <i class="bi bi-list item item-nav" id="menu-btn"></i>
+      <nav class="menu-nav dropdown-menu close">
+        <ul>
+          <li>
+            <a href="/src/public/pages/index.html" class="item"
+              ><em><strong>Home</strong></em></a
+            >
+          </li>
+          <li>
+            <a href="/src/public/pages/contato.html" class="item"
+              ><em>Contato</em></a
+            >
+          </li>
+          <li class="dropdown">
+            <a href="./perfis.html" class="item"><em>Perfis Industriais</em></a>
+            <div class="perfil-section">
+              <a href="./extraPages/industrial.html" class="item"
+                >Perfil Industrial em Alumínio >></a
+              >
+              <a href="./extraPages/aluminioperfil.html" class="item"
+                >Perfil em Alumínio >></a
+              >
+              <a href="./extraPages/aluminioesquadria.html" class="item"
+                >Esquadrias em Alumínio >></a
+              >
+            </div>
+          </li>
+          <li>
+            <a href="/src/public/pages/civil.html" class="item">
+              <em>Construção Civil</em>
+            </a>
+          </li>
+        </ul>
+      </nav>
       <nav class="navbar">
         <ul>
           <li>
@@ -28,9 +62,7 @@
             >
           </li>
           <li class="dropdown">
-            <a href="./extraPages/industrial.html" class="item"
-              ><em>Perfis Industriais</em></a
-            >
+            <a href="./perfis.html" class="item"><em>Perfis Industriais</em></a>
             <div class="dropdown-menu">
               <a href="./extraPages/industrial.html" class="item"
                 >Perfil Industrial em Alumínio >></a
@@ -53,17 +85,11 @@
     </header>
     <main>
       <div class="container">
-        <h1
-          class="title main-title"
-          style="margin-top: 200px; margin-bottom: 200px"
-        >
-          Modernidade, Design e Sofisticação
-        </h1>
+        <h1 class="title main-title">Modernidade, Design e Sofisticação</h1>
       </div>
       <section class="about">
         <div class="about-img">
           <div class="gradient"></div>
-          <!-- <img src="../images/sunset-rice-farm-field-thailand.jpg" width="400px" /> -->
         </div>
         <div class="about-text">
           <h2 class="title">Quem Somos?</h2>
@@ -97,7 +123,7 @@
               Atender diversos campos da Construção Civil, Arquitetura,
               Engenharia e Industria onde produtos em alumínio seja necessário
               para que o usuário tenha a melhor experiência com designer,
-              tecnologia e durabilidade.Graças aos nossos parceiros, você pode
+              tecnologia e durabilidade. Graças aos nossos parceiros, você pode
               encontrar ties on-line para atender a todas as preferências e
               orçamentos, do orçamento ao topo de gama modelos super estilosos.
             </p>
@@ -120,7 +146,7 @@
         </div>
       </section>
       <div class="container">
-        <h2 class="main-title">Nossos produtos</h2>
+        <h2 class="title main-title">Nossos produtos</h2>
       </div>
       <div class="container products">
         <a href="../extraPages/industrial.html" class="card-link">
@@ -135,21 +161,21 @@
       </div>
 
       <div class="container">
-        <h2 class="main-title">Nossos clientes</h2>
+        <h2 class="title main-title">Nossos clientes</h2>
       </div>
 
       <div class="container clients">
         <div class="carousel-track">
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
-          <div class="carousel-item"></div>
+          <div class="carousel-item card">1</div>
+          <div class="carousel-item card">2</div>
+          <div class="carousel-item card">3</div>
+          <div class="carousel-item card">4</div>
+          <div class="carousel-item card">5</div>
+          <div class="carousel-item card">6</div>
+          <div class="carousel-item card">7</div>
+          <div class="carousel-item card">8</div>
+          <div class="carousel-item card">9</div>
+          <div class="carousel-item card">10</div>
         </div>
       </div>
     </main>
@@ -171,5 +197,6 @@
     </footer>
 
     <script src="../scripts/index.js"></script>
+    <script src="../scripts/carousel.js"></script>
   </body>
 </html>

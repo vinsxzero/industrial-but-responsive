@@ -114,3 +114,31 @@ missionRow.forEach((row) => {
     });
   });
 });
+
+//menu mobile
+const menuButton = document.querySelector("#menu-btn");
+const menuNav = document.querySelector(".menu-nav");
+const body = document.querySelector("body");
+menuButton.addEventListener("click", () => {
+  if (!menuNav.classList.contains("open")) {
+    menuNav.classList.add("open");
+    body.classList.add("block-page");
+    menuNav.classList.remove("close");
+  } else {
+    menuNav.classList.add("close");
+    menuNav.classList.remove("open");
+    body.classList.remove("block-page");
+  }
+});
+//selecionando produtos
+document.addEventListener("DOMContentLoaded", () => {
+  const productItems = document.querySelectorAll(".catalogue .card");
+
+  productItems.forEach((item) => {
+    item.addEventListener("click", () => {
+      productItems.forEach((i) => i.classList.remove("selected"));
+      item.classList.add("selected");
+    });
+  });
+});
+console.log(document.querySelectorAll(".catalogue .card").length);

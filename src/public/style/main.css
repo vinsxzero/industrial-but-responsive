@@ -63,9 +63,13 @@ main {
   padding-bottom: 40px;
 }
 
+/* NAVBAR MOBILE */
+.menu-nav {
+  display: none;
+}
 /* NAVBAR */
 .navbar {
-  width: 50%;
+  width: 100%;
 }
 .navbar .item {
   transition: font-size 0.5s;
@@ -80,6 +84,9 @@ main {
 .navbar ul {
   height: 100%;
   list-style-type: none;
+}
+.copyright {
+  align-self: flex-start;
 }
 /* =======================
    MISSÃO / VISÃO / VALORES
@@ -149,9 +156,11 @@ main {
 /* Conteúdo das abas */
 .mission-text .content {
   display: none;
+  pointer-events: none;
 }
 .mission-text .content.selected {
   display: block;
+  pointer-events: auto;
   animation: fade 0.3s ease-in-out;
 }
 
@@ -175,6 +184,10 @@ main {
 .title {
   font-family: "Noto Serif";
 }
+.title.main-title {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
 h1.main-title {
   font-weight: 200;
   font-size: 5rem;
@@ -195,8 +208,6 @@ h2.main-title {
 }
 .content {
   display: none;
-
-  pointer-events: none;
 }
 .about-img {
   position: relative;
@@ -223,6 +234,7 @@ h2.main-title {
   color: white;
   padding: 60px;
   display: flex;
+  font-family: "Inter";
   flex-direction: column;
   justify-content: center;
 }
@@ -232,13 +244,14 @@ h2.main-title {
   width: 100%;
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: center;
   flex-direction: column;
 }
 
 .faq {
   width: 50%;
-  height: 50%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   margin: 1em;
@@ -305,7 +318,9 @@ form label {
 }
 
 /* DROPDOWN */
-
+.item-nav {
+  display: none;
+}
 .dropdown-menu {
   position: absolute;
   left: 0;
@@ -342,27 +357,20 @@ form label {
 }
 .carousel-track {
   display: flex;
+  gap: 1.5rem;
   width: max-content;
-  height: 100%;
   animation: scroll 20s linear infinite;
 }
-.clients .carousel-item {
-  flex: 0 0 25%;
-  aspect-ratio: 1 / 1;
-  margin: 0 12px;
-  padding: 2em;
-  box-sizing: border-box;
-  background-color: aqua;
-}
+
 .carousel-track:hover {
   animation-play-state: paused;
 }
 @keyframes scroll {
-  0% {
+  from {
     transform: translateX(0);
   }
-  100% {
-    transform: translateX(-200%);
+  to {
+    transform: translateX(-50%);
   }
 }
 /* cartões */
@@ -389,4 +397,231 @@ form label {
 hr {
   width: 1000px;
   margin: 3rem;
+}
+
+/* pesquisa */
+.search-form {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.search-input {
+  border: 2px solid #9fa0a1;
+  padding: 5px;
+  border-radius: 10px;
+}
+.search-form .search-input:focus {
+  outline: none;
+  border-color: #044d91;
+  box-shadow: 0 0 0 2px #044d91;
+}
+.search-form .search-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/*CATALOGO*/
+
+.catalogue {
+  padding: 50px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.card-name {
+  margin-top: auto;
+}
+.catalogue .card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease;
+}
+
+.catalogue .card.selected {
+  grid-area: span 2 / span 3;
+  background-color: #044d91;
+}
+.card.selected .card-name {
+  display: none;
+}
+.card.selected {
+  width: 50%;
+  height: auto;
+}
+/* MEDIA QUERIES */
+@media screen and (max-width: 1250px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  body p {
+    font-size: 8px;
+  }
+  body h1 {
+    font-size: 20px;
+  }
+  body h2 {
+    font-size: 16px;
+  }
+  .logo {
+    width: 110px;
+    height: 30px;
+  }
+  .title.main-title {
+    font-size: 2rem;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  .navbar {
+    width: 100%;
+    font-size: 2em;
+  }
+  .footer {
+    width: 100%;
+  }
+  hr {
+    width: 80%;
+  }
+  .faq {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: 2em;
+    padding: 20px;
+  }
+  .addresses {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .mapa {
+    height: 300px;
+  }
+
+  .copyright {
+    align-self: flex-start;
+    font-size: 1em;
+  }
+  .navbar {
+    display: none;
+  }
+  .menu-nav.open {
+    display: block;
+    height: 100%;
+  }
+
+  .block-page {
+    overflow: hidden;
+  }
+  .menu-nav .item {
+    font-size: 18px;
+  }
+  .menu-nav {
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+
+    cursor: pointer;
+  }
+  .perfil-section {
+    margin-left: 20px;
+  }
+  .menu-nav ul {
+    list-style-type: none;
+    margin-right: 20px;
+  }
+  .item-nav {
+    display: inline;
+    margin: 0px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .item {
+    padding-bottom: 10px;
+  }
+  .about-img {
+    height: 300px;
+  }
+  .about-text {
+    padding: 10px;
+    box-sizing: border-box;
+    height: 300px;
+    min-height: auto;
+  }
+  .about-text p {
+    font-size: 8px;
+  }
+  .about-text h2 {
+    font-size: 16px;
+  }
+  .about {
+    height: 300px;
+    padding: 40px;
+    min-height: fit-content;
+  }
+  .container .main-title {
+    font-size: 20px;
+  }
+  .content {
+    font-size: 8px;
+  }
+  .row h2 {
+    font-size: 12px;
+  }
+  .arrow {
+    font-size: 14px;
+  }
+  .mission {
+    padding: 40px;
+  }
+  .mission-text {
+    padding: 20px;
+  }
+  .content ul {
+    padding: 10px;
+  }
+
+  .container.products {
+    gap: 0.5em;
+  }
+  .card {
+    height: 3em;
+    width: 3em;
+    font-size: 2rem;
+  }
+
+  .container.clients {
+    width: 100%;
+    overflow: hidden;
+  }
+  .ctt * {
+    font-size: 18px;
+  }
+  .mapa {
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  footer .container .main-title {
+    font-size: 36px;
+    color: #989898;
+  }
+  form {
+    width: 80%;
+    font-size: 12px;
+  }
+  .btn-form {
+    font-size: 12px;
+    width: 100px;
+  }
 }

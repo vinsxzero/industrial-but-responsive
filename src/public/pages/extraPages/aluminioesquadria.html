@@ -15,36 +15,66 @@
   <body>
     <header class="page header">
       <img class="logo" src="../../images/main/logo.png" alt="Alumark" />
-      <nav class="navbar">
+      <i class="bi bi-list item item-nav" id="menu-btn"></i>
+      <nav class="menu-nav dropdown-menu close">
         <ul>
           <li>
-            <a href="/src/public/pages/index.html" class="item"
+            <a href="../index.html" class="item"
               ><em><strong>Home</strong></em></a
             >
           </li>
           <li>
-            <a href="/src/public/pages/contato.html" class="item"
-              ><em>Contato</em></a
-            >
+            <a href="../contato.html" class="item"><em>Contato</em></a>
           </li>
           <li class="dropdown">
-            <a href="./extraPages/industrial.html" class="item"
+            <a href="../perfis.html" class="item"
               ><em>Perfis Industriais</em></a
             >
-            <div class="dropdown-menu">
-              <a href="./industrial.html" class="item"
+            <div class="perfil-section">
+              <a href="../extraPages/industrial.html" class="item"
                 >Perfil Industrial em Alumínio >></a
               >
-              <a href="./aluminioperfil.html" class="item"
+              <a href="../extraPages/aluminioperfil.html" class="item"
                 >Perfil em Alumínio >></a
               >
-              <a href="./aluminioesquadria.html" class="item"
+              <a href="../extraPages/aluminioesquadria.html" class="item"
                 >Esquadrias em Alumínio >></a
               >
             </div>
           </li>
           <li>
-            <a href="/src/public/pages/civil.html" class="item">
+            <a href="../civil.html" class="item">
+              <em>Construção Civil</em>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="../index.html" class="item"
+              ><em><strong>Home</strong></em></a
+            >
+          </li>
+          <li>
+            <a href="../contato.html" class="item"><em>Contato</em></a>
+          </li>
+          <li class="dropdown">
+            <a href="./perfis.html" class="item"><em>Perfis Industriais</em></a>
+            <div class="dropdown-menu">
+              <a href="../extraPages/industrial.html" class="item"
+                >Perfil Industrial em Alumínio >></a
+              >
+              <a href="../extraPages/aluminioperfil.html" class="item"
+                >Perfil em Alumínio >></a
+              >
+              <a href="../extraPages/aluminioesquadria.html" class="item"
+                >Esquadrias em Alumínio >></a
+              >
+            </div>
+          </li>
+          <li>
+            <a href="../civil.html" class="item">
               <em>Construção Civil</em>
             </a>
           </li>
@@ -69,5 +99,6 @@
         ></em>
       </p>
     </footer>
+    <script src="../../scripts/index.js"></script>
   </body>
 </html>
