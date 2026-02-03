@@ -360,10 +360,17 @@ form label {
 }
 
 .prod-image {
+  width: 35%;
+  aspect-ratio: 1 / 1;
   border: black solid 5px;
+  object-fit: cover;
+  object-position: center;
 }
-#productImage {
-  width: 40%;
+.prod-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .product-description {
   width: 50%;
@@ -412,10 +419,12 @@ form label {
 }
 /* cartões */
 .card {
+  display: flex;
   height: 5em;
   width: 5em;
-  padding: 1em;
-
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #0a457a;
   background-color: aqua;
   font-size: 3rem;
   text-align: center;
@@ -423,6 +432,11 @@ form label {
     width 0.3s,
     height 0.3s;
   align-content: center;
+}
+.card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .products .card:hover {
   width: 6em;
@@ -469,8 +483,55 @@ hr {
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
+.card-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Inter";
+  text-decoration: none;
+  color: #0a457a;
+  font-size: 1.5rem;
+}
+#productColors {
+  display: flex;
+  gap: 10px;
+}
+#productColors button {
+  cursor: pointer;
+  border: 2px solid #044d91;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: "Inter";
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+#productMeasures {
+  margin: 10px;
+  display: flex;
+  gap: 10px;
+}
+#productMeasures button {
+  cursor: pointer;
+  border: 2px solid #044d91;
+  background-color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: "Inter";
+  transition:
+    background-color 0.3s,
+    color 0.3s;
+}
+#productMeasures button:hover,
+#productColors button:hover {
+  background-color: #044d91;
+  color: white;
+}
+
 .card-name {
-  margin-top: auto;
+  text-decoration: none;
+  margin-top: 10px;
 }
 .catalogue .card {
   display: flex;
@@ -483,9 +544,8 @@ hr {
   transition: transform 0.2s ease;
 }
 
-.catalogue .card.selected {
-  grid-area: span 2 / span 3;
-  background-color: #044d91;
+.catalogue .card:hover {
+  transform: scale(1.05);
 }
 .card.selected .card-name {
   display: none;

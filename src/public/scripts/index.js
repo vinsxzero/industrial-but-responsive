@@ -130,19 +130,3 @@ menuButton.addEventListener("click", () => {
     body.classList.remove("block-page");
   }
 });
-//selecionando produtos
-document.addEventListener("DOMContentLoaded", () => {
-  const productItems = document.querySelectorAll(".catalogue .card");
-
-  productItems.forEach((item) => {
-    item.addEventListener("click", () => {
-      if (item.classList.contains("selected")) {
-        item.classList.remove("selected");
-      } else {
-        productItems.forEach((i) => i.classList.remove("selected"));
-        item.classList.add("selected");
-      }
-    });
-  });
-});
-console.log(document.querySelectorAll(".catalogue .card").length);
