@@ -85,79 +85,26 @@
     </header>
     <main>
       <div class="container">
-        <h1 class="title main-title hero">
-          Modernidade, Design e Sofisticação
-        </h1>
+        <h1 class="title main-title hero" id="productCategory"></h1>
       </div>
-      <section class="about">
-        <div class="about-img">
-          <div class="gradient"></div>
+      <div class="container product">
+        <img class="prod-image" id="productImage" src="" alt="" />
+        <div class="product-description">
+          <h1 class="main-title" id="productName"></h1>
+          <p id="productDescription"></p>
         </div>
-        <div class="about-text">
-          <h2 class="title">Quem Somos?</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi
-            molestiae ea consequatur quaerat excepturi quia eius quidem fuga
-            omnis, suscipit asperiores distinctio eum voluptatum unde.
-            Consectetur, minus commodi. Repudiandae, distinctio!
-          </p>
-        </div>
-      </section>
-      <section class="mission">
-        <div class="object">
-          <div class="row selected" data-target="objective">
-            <h2>Missão</h2>
-            <i class="bi bi-caret-right item arrow"></i>
-          </div>
-          <div class="row" data-target="vision">
-            <h2>Visão</h2>
-            <i class="bi bi-caret-right item arrow"></i>
-          </div>
-          <div class="row" data-target="value">
-            <h2>Valores</h2>
-            <i class="bi bi-caret-right item arrow"></i>
-          </div>
-        </div>
-
-        <div class="mission-text">
-          <div id="objective" class="content selected">
-            <p>
-              Atender diversos campos da Construção Civil, Arquitetura,
-              Engenharia e Industria onde produtos em alumínio seja necessário
-              para que o usuário tenha a melhor experiência com designer,
-              tecnologia e durabilidade. Graças aos nossos parceiros, você pode
-              encontrar ties on-line para atender a todas as preferências e
-              orçamentos, do orçamento ao topo de gama modelos super estilosos.
-            </p>
-          </div>
-          <div class="content" id="vision">
-            <p>
-              Ser referência no mercado com produtos de qualidade, durabilidade
-              e tecnologia.
-            </p>
-          </div>
-          <div class="content" id="value">
-            <ul>
-              <li>Agir de forma correta;</li>
-              <li>A vida em primeiro lugar;</li>
-              <li>Valorizar quem faz a nossa empresa;</li>
-              <li>Crescer e evoluir juntos;</li>
-              <li>Fazer acontecer</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+      </div>
       <div class="container">
-        <h2 class="title main-title">Nossos produtos</h2>
+        <h2 class="title main-title">Veja mais</h2>
       </div>
       <div class="container products">
-        <a href="../pages/product.html?id=1" class="card-link">
+        <a href="../pages/product.html?" class="card-link">
           <div class="card" id="industrial-card"></div>
         </a>
-        <a href="../pages/product.html?id=2" class="card-link">
+        <a href="../pages/product.html" class="card-link">
           <div class="card" id="esquadria-card"></div>
         </a>
-        <a href="../pages/product.html?id=3" class="card-link">
+        <a href="../pages/product.html" class="card-link">
           <div class="card" id="aluminioperfil-card"></div>
         </a>
       </div>
@@ -165,7 +112,6 @@
       <div class="container">
         <h2 class="title main-title">Nossos clientes</h2>
       </div>
-
       <div class="container clients">
         <div class="carousel-track">
           <div class="carousel-item card">1</div>
@@ -181,8 +127,8 @@
         </div>
       </div>
     </main>
+
     <footer class="page footer">
-      <br />
       <i class="bi bi-instagram item icon">
         <a class="item" href="https://instagram.com">/Alumark</a>
       </i>
@@ -192,12 +138,14 @@
       <i class="bi bi-envelope item icon">
         <a class="item icon" href="https://instagram.com">email@dominio.com</a>
       </i>
-
       <p class="item">
-        <em>Alumark™ Todos os direitos reservados - <span id="year"></span></em>
+        <em>
+          Alumark™ Todos os direitos reservados - <span id="year"></span
+        ></em>
       </p>
     </footer>
 
+    <script src="../scripts/products.js"></script>
     <script src="../scripts/index.js"></script>
     <script src="../scripts/carousel.js"></script>
   </body>

@@ -23,6 +23,7 @@ main {
   background-color: white;
   flex: 1;
   align-items: center;
+  padding: 20px;
 }
 
 /* HEADER E FOOTER */
@@ -181,12 +182,15 @@ main {
   width: 200px;
   height: 50px;
 }
+.title.main-title.hero {
+  margin-bottom: 200px;
+}
 .title {
   font-family: "Noto Serif";
 }
 .title.main-title {
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 h1.main-title {
   font-weight: 200;
@@ -347,7 +351,40 @@ form label {
   flex-direction: row;
   gap: 10em;
 }
+.container.product {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: row;
+}
 
+.prod-image {
+  border: black solid 5px;
+}
+#productImage {
+  width: 40%;
+}
+.product-description {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.product-description h1 {
+  font-size: 3em;
+  width: 50%;
+}
+.product-description * {
+  align-items: end;
+  text-align: end;
+  font-family: "Inter";
+}
+.product-description p {
+  text-align: justify;
+  font-size: 1.2em;
+}
 /* clientes */
 
 .clients {
@@ -479,7 +516,7 @@ hr {
   .title.main-title {
     font-size: 2rem;
     margin-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
   }
   .navbar {
     width: 100%;
@@ -602,7 +639,7 @@ hr {
   }
 
   .container.clients {
-    width: 100%;
+    width: 300px;
     overflow: hidden;
   }
   .ctt * {

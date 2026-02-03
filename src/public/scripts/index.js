@@ -136,8 +136,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   productItems.forEach((item) => {
     item.addEventListener("click", () => {
-      productItems.forEach((i) => i.classList.remove("selected"));
-      item.classList.add("selected");
+      if (item.classList.contains("selected")) {
+        item.classList.remove("selected");
+      } else {
+        productItems.forEach((i) => i.classList.remove("selected"));
+        item.classList.add("selected");
+      }
     });
   });
 });
