@@ -28,7 +28,7 @@ const products = {
   },
   4: {
     category: "Construção Civil",
-    name: "Alca de Apoio",
+    name: "Alça de Apoio",
     description: "",
 
     medidas: {
@@ -281,13 +281,64 @@ let availableIds = Object.keys(products).map(Number);
 availableIds = availableIds.filter((id) => id !== Number(productId));
 availableIds.sort(() => Math.random() - 0.5);
 const selectedIds = availableIds.slice(0, links.length + 1);
+function generateRandomSuggestion() {
+  links.forEach((link, index) => {
+    const randomId = selectedIds[index];
+    const cardImage = link.querySelector(".card-image");
+    const cardName = link.querySelector(".card-name");
 
-links.forEach((link, index) => {
-  const randomId = selectedIds[index];
-  const cardImage = link.querySelector(".card-image");
-  const cardName = link.querySelector(".card-name");
+    link.href = `../pages/product.html?id=${randomId}`;
+    cardImage.src = products[randomId].cardImage;
+    cardName.textContent = products[randomId].name;
+  });
+}
+const catalogue = document.querySelector(".catalogue");
+function generateCivilCatalogue() {
+  catalogue.innerHTML = "";
 
-  link.href = `../pages/product.html?id=${randomId}`;
-  cardImage.src = products[randomId].cardImage;
-  cardName.textContent = products[randomId].name;
-});
+  Object.entries(products).forEach(([id, product]) => {
+    if (product.category !== "Construção Civil") return;
+    const card = document.createElement("a");
+
+    card.classList.add("card-link");
+    card.href = `../pages/product.html?id=${id}`;
+    const cardDiv = document.createElement("div");
+    cardDiv.classList.add("card");
+    const cardImage = document.createElement("img");
+    cardImage.classList.add("card-image");
+    cardImage.src = product.cardImage;
+
+    const cardName = document.createElement("p");
+    cardName.classList.add("card-name");
+    cardName.textContent = product.name;
+    cardDiv.appendChild(cardImage);
+    card.appendChild(cardDiv);
+    card.appendChild(cardName);
+
+    catalogue.appendChild(card);
+  });
+}
+function generateIndustrialCatalogue() {
+  catalogue.innerHTML = "";
+  Object.entries(products).forEach(([id, product]) => {
+    if (product.category !== "Perfis Industriais") return;
+    const card = document.createElement("a");
+
+    card.classList.add("card-link");
+    card.href = `../pages/product.html?id=${id}`;
+    const cardDiv = document.createElement("div");
+    cardDiv.classList.add("card");
+    const cardImage = document.createElement("img");
+    cardImage.classList.add("card-image");
+    cardImage.src = product.cardImage;
+
+    const cardName = document.createElement("p");
+    cardName.classList.add("card-name");
+    cardName.textContent = product.name;
+    cardDiv.appendChild(cardImage);
+    card.appendChild(cardDiv);
+    card.appendChild(cardName);
+
+    catalogue.appendChild(card);
+  });
+}

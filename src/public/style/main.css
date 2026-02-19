@@ -1,6 +1,21 @@
 /* CONFIGURAÇÕES GERAIS */
-
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
+:root {
+  /* CORES PRINCIPAIS */
+  --color-primary: #044d91;
+  --color-primary-dark: #0a457a;
+  --color-primary-alt: #0a4a85;
+  --color-secondary: #1d7fda;
+
+  /* CORES NEUTRAS */
+  --color-white: #ffffff;
+  --color-light: #f5f7fa;
+  --color-gray: #9fa0a1;
+  --color-border: #000000;
+
+  /* DESTAQUE */
+  --color-highlight: #00ffff;
+}
 
 * {
   box-sizing: border-box;
@@ -23,7 +38,10 @@ main {
   background-color: white;
   flex: 1;
   align-items: center;
-  padding: 20px;
+  padding: 10px;
+}
+main * {
+  margin: 0px;
 }
 
 /* HEADER E FOOTER */
@@ -96,7 +114,8 @@ main {
   display: flex;
   width: 100%;
   height: 400px; /* altura fixa */
-  padding: 70px;
+  padding: 5px;
+  margin-top: 20rem;
   justify-content: space-around;
 }
 
@@ -208,7 +227,7 @@ h2.main-title {
   width: 100%;
   justify-content: center;
   min-height: 600px;
-  padding: 70px;
+  margin-top: 20rem;
 }
 .content {
   display: none;
@@ -238,6 +257,7 @@ h2.main-title {
   color: white;
   padding: 60px;
   display: flex;
+  font-size: inherit;
   font-family: "Inter";
   flex-direction: column;
   justify-content: center;
@@ -384,9 +404,13 @@ form label {
   width: 50%;
 }
 .product-description * {
-  align-items: end;
   text-align: end;
   font-family: "Inter";
+}
+#productColors {
+  width: 70%;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 .product-description p {
   text-align: justify;
@@ -490,7 +514,11 @@ hr {
   font-family: "Inter";
   text-decoration: none;
   color: #0a457a;
-  font-size: 1.5rem;
+}
+.card-link .card-name {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  font-size: 1.2em;
 }
 #productColors {
   display: flex;
@@ -536,8 +564,7 @@ hr {
 .catalogue .card {
   display: flex;
   flex-direction: column;
-  width: 300px;
-  height: 300px;
+
   aspect-ratio: 1 / 1;
   cursor: pointer;
   margin-bottom: 20px;
@@ -555,7 +582,7 @@ hr {
   height: auto;
 }
 /* MEDIA QUERIES */
-@media screen and (max-width: 1250px) {
+/* @media screen and (max-width: 1250px) {
   html,
   body {
     overflow-x: hidden;
@@ -720,5 +747,354 @@ hr {
   .btn-form {
     font-size: 12px;
     width: 100px;
+  }
+} */
+@media (min-width: 750px) and (max-width: 1250px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  main {
+    padding: 0px;
+  }
+  body p {
+    font-size: 1.25rem;
+    font-weight: 300;
+  }
+  body h1 {
+    font-size: 4rem;
+  }
+  body h2 {
+    font-size: 2rem;
+  }
+  body h3 {
+    font-size: 1.5rem;
+  }
+  body ul {
+    font-size: 1.25rem;
+  }
+  .logo {
+    width: 170px;
+    height: 50px;
+  }
+  .title.main-title.hero {
+    font-size: 5rem;
+  }
+  .title.main-title {
+    font-size: 3rem;
+    margin-top: 100px;
+    margin-bottom: 0px;
+  }
+  .navbar {
+    width: 100%;
+    font-size: 2em;
+  }
+  .footer {
+    width: 100%;
+  }
+  hr {
+    width: 80%;
+  }
+  .faq {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-size: 2em;
+    padding: 20px;
+  }
+  .addresses {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .mapa {
+    height: 300px;
+  }
+
+  .copyright {
+    align-self: flex-start;
+    font-size: 1em;
+  }
+  .navbar {
+    display: none;
+  }
+  .menu-nav.open {
+    display: block;
+    height: 100%;
+  }
+
+  .block-page {
+    overflow: hidden;
+  }
+  .menu-nav .item {
+    font-size: 2em;
+  }
+  .menu-nav {
+    position: absolute;
+    top: 75px;
+    z-index: 1;
+
+    cursor: pointer;
+  }
+  .perfil-section {
+    margin-left: 20px;
+  }
+  .menu-nav ul {
+    list-style-type: none;
+    margin-right: 20px;
+  }
+  .item-nav {
+    display: inline;
+    margin: 0px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .item {
+    padding-bottom: 10px;
+  }
+  .about-img {
+    height: 500px;
+  }
+  .about-text {
+    padding: 15px;
+    box-sizing: border-box;
+    height: 500px;
+    min-height: auto;
+  }
+
+  .about {
+    height: 600px;
+    width: 100%;
+    padding: 0px;
+    margin-top: 5rem;
+    min-height: fit-content;
+  }
+  .container .main-title {
+    padding: 50px;
+  }
+  .content {
+    font-size: 8px;
+  }
+  .row h2 {
+    font-size: 1.5rem;
+  }
+  .arrow {
+    font-size: 1.5rem;
+  }
+  .mission {
+    padding: 0px;
+    margin-top: 5rem;
+  }
+  .mission-text {
+    padding: 20px;
+  }
+  .content ul {
+    padding: 10px;
+  }
+
+  .container.products {
+    gap: 0.5em;
+    align-items: flex-start;
+  }
+  .card {
+    height: 4em;
+    width: 4em;
+    font-size: 2rem;
+    border: solid 2px;
+  }
+  .card:hover {
+    height: inherit;
+    width: inherit;
+  }
+  .card-name {
+    font-size: inherit;
+  }
+
+  .container.products .card {
+    text-align: center;
+  }
+  .card-name {
+    width: 15rem;
+  }
+
+  .container.clients {
+    width: 300px;
+    overflow: hidden;
+  }
+
+  .ctt * {
+    font-size: 18px;
+  }
+  .mapa {
+    height: 200px;
+    margin-bottom: 50px;
+  }
+  footer .container .main-title {
+    font-size: 36px;
+    color: #989898;
+  }
+  form {
+    width: 80%;
+    font-size: 12px;
+  }
+  .btn-form {
+    font-size: 12px;
+    width: 100px;
+  }
+  #productColors {
+    display: flex;
+  }
+
+  .catalogue {
+    padding: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .card-name {
+    text-align: center;
+  }
+  .card-link .card {
+    width: 7em;
+    height: 7em;
+  }
+  #productName {
+    padding: 0px 0px 50px 0px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 700px) {
+  body p {
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  body h1 {
+    font-size: 3rem;
+  }
+  body h2 {
+    font-size: 1.25rem;
+  }
+  body h3 {
+    font-size: 1.25rem;
+  }
+  body ul {
+    font-size: 1rem;
+  }
+  main {
+    padding: 0px;
+  }
+  .block-page {
+    overflow: hidden;
+  }
+  .menu-nav .item {
+    font-size: 1.15em;
+  }
+  .title.main-title.hero {
+    font-size: 3rem;
+    margin-bottom: 120px;
+  }
+
+  .about {
+    flex-direction: column;
+    margin-top: 10rem;
+  }
+  .about * {
+    text-align: center;
+    width: 100%;
+  }
+  .about-text {
+    padding: 20px;
+
+    height: 300px;
+  }
+  .about-text p {
+    text-align: justify;
+  }
+  .about-img .gradient {
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), #0a4a85);
+  }
+  .about-img {
+    height: 300px;
+  }
+  .mission {
+    margin-top: 10rem;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
+  }
+  .object {
+    display: flex;
+    width: 100%;
+    height: 100px;
+  }
+  .row.selected .arrow {
+    display: none;
+  }
+  .arrow {
+    display: none;
+  }
+  .mission-text {
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+  }
+  .item-nav {
+    display: inline;
+    margin: 0px;
+  }
+  .navbar {
+    display: none;
+  }
+  .menu-nav {
+    position: absolute;
+    top: 75px;
+    z-index: 1;
+    height: 100%;
+    cursor: pointer;
+  }
+  .menu-nav ul {
+    list-style-type: none;
+    margin-right: 20px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header .item {
+    padding-bottom: 10px;
+  }
+  .close {
+    display: none;
+  }
+  .open {
+    display: block;
+  }
+  h2.main-title {
+    font-size: 2.5rem;
+  }
+  .card {
+    width: 3em;
+    height: 3em;
+  }
+  .container.products {
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: flex-start;
+    padding: 10px;
+  }
+  .container.products .card-link {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+  }
+  .card-name {
+    width: 50%;
   }
 }

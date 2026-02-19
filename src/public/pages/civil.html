@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body onload="generateCivilCatalogue()">
     <header class="page header">
       <img class="logo" src="../images/main/logo.png" alt="Alumark" />
       <i class="bi bi-list item item-nav" id="menu-btn"></i>
@@ -101,25 +101,7 @@
           <i class="bi bi-search"></i>
         </button>
       </form>
-      <div class="catalogue">
-        <div class="card">
-          <span class="card-name">teste</span>
-        </div>
-        <div class="card">2</div>
-        <div class="card">3</div>
-        <div class="card">4</div>
-        <div class="card">5</div>
-        <div class="card">6</div>
-        <div class="card">7</div>
-        <div class="card">8</div>
-        <div class="card">9</div>
-        <div class="card">10</div>
-        <div class="card">11</div>
-        <div class="card">12</div>
-        <div class="card">13</div>
-        <div class="card">14</div>
-        <div class="card">15</div>
-      </div>
+      <div class="catalogue"></div>
       <br />
     </main>
 
@@ -142,4 +124,5 @@
     </footer>
   </body>
   <script src="../scripts/index.js" defer></script>
+  <script src="../scripts/products.js"></script>
 </html>

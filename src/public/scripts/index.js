@@ -96,9 +96,7 @@ const missionRow = document.querySelectorAll(".object .row");
 const contents = document.querySelectorAll(".content");
 let current = document.querySelector(".content.show");
 missionRow.forEach((row) => {
-  const arrow = row.querySelector(".arrow");
-
-  arrow.addEventListener("click", () => {
+  row.addEventListener("click", () => {
     const targetId = row.dataset.target;
 
     missionRow.forEach((i) => i.classList.remove("selected"));

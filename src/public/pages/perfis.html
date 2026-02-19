@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body onload="generateIndustrialCatalogue()">
     <header class="page header">
       <img class="logo" src="../images/main/logo.png" alt="Alumark" />
       <i class="bi bi-list item item-nav" id="menu-btn"></i>
@@ -83,7 +83,26 @@
         </ul>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <div class="container">
+        <h1 class="title main-title">Produtos - Perfis Industriais</h1>
+      </div>
+      <form action="/search" method="get" role="search" class="search-form">
+        <input
+          class="search-input"
+          type="search"
+          id="site-search"
+          name="q"
+          placeholder="Pesquisar..."
+          aria-label="Search through site content"
+        />
+        <button type="submit" class="search-button">
+          <i class="bi bi-search"></i>
+        </button>
+      </form>
+      <div class="catalogue"></div>
+      <br />
+    </main>
 
     <footer class="page footer">
       <i class="bi bi-instagram item icon">
@@ -103,5 +122,6 @@
     </footer>
 
     <script src="../scripts/index.js"></script>
+    <script src="../scripts/products.js"></script>
   </body>
 </html>
