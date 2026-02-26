@@ -11,7 +11,8 @@ const products = {
   2: {
     category: "Perfis Industriais",
     name: "Perfil em Alumínio",
-    description: "",
+    description:
+      "Contamos com a linha completa de perfis, para fabricação de esquadrias, corrimão, portas de vidro, entre outros. Além de grande variedade, temos um estoque pronta entrega  garantindo agilidade do seu material.",
 
     medidas: null,
     image: "../images/products/aluminum-profiles.jpg",
@@ -20,7 +21,8 @@ const products = {
   3: {
     category: "Perfis Industriais",
     name: "Esquadrias em Alumínio",
-    description: "",
+    description:
+      "Na nossa linha de esquadrias, você encontra uma ampla variedade de produtos versáteis e altamente duráveis. As esquadrias em alumínio se destacam pelo excelente custo-benefício, aliando resistência, baixa manutenção e longa vida útil. <br/><br/> Além disso, o design moderno e a estética sofisticada contribuem diretamente para a valorização do imóvel. Afinal, quem não deseja uma casa com portas e janelas bonitas, resistentes e fáceis de conservar?",
 
     medidas: null,
     image: "../images/products/aluminum-frames.jpg",
@@ -29,7 +31,13 @@ const products = {
   4: {
     category: "Construção Civil",
     name: "Alça de Apoio",
-    description: "",
+    description: `<li>Envelhecido para maior resistência e dureza </li>
+      <li>Grande durabilidade </li>
+      <li>Polimento de alto brilho </li>
+      <li>Leve </li>
+      <li>Canopla e luva de alumínio </li>
+      <li>Resistente a corrosão </li>
+      <li>Reciclável </li>`,
 
     medidas: {
       25: {
@@ -234,45 +242,52 @@ const products = {
     cardImage: "../images/products/cards/11.jpg",
   },
 };
+const clients = {
+  1: {
+    logo: "../images/clients/1.png",
+  },
+};
 
 const params = new URLSearchParams(window.location.search);
 const productId = params.get("id");
 const product = products[productId];
-if (product) {
-  document.getElementById("productCategory").textContent = product.category;
-  document.getElementById("productName").textContent = product.name;
-  document.getElementById("productDescription").textContent =
-    product.description;
-  document.getElementById("productImage").src = product.image;
-  const productMeasures = document.getElementById("productMeasures");
-  const colorContainer = document.getElementById("productColors");
-  const titleSize = document.getElementById("titleSize");
-  const titleColor = document.getElementById("titleColor");
-  if (product.medidas) {
-    titleSize.textContent = "Tamanhos disponíveis:";
-    Object.keys(product.medidas).forEach((medida) => {
-      const btnMedida = document.createElement("button");
-      btnMedida.textContent = medida + " cm";
-      btnMedida.addEventListener("click", () => {
-        colorContainer.innerHTML = "";
-        titleColor.textContent = "Cores disponíveis:";
-        if (product.medidas[medida]) {
-          Object.keys(product.medidas[medida]).forEach((cor) => {
-            const btn = document.createElement("button");
-            btn.textContent = cor;
-            btn.addEventListener("click", () => {
-              document.getElementById("productImage").src =
-                product.medidas[medida][cor];
+function generateProductDetails() {
+  if (product) {
+    document.getElementById("productCategory").textContent = product.category;
+    document.getElementById("productName").textContent = product.name;
+    document.getElementById("productDescription").innerHTML =
+      product.description;
+    document.getElementById("productImage").src = product.image;
+    const productMeasures = document.getElementById("productMeasures");
+    const colorContainer = document.getElementById("productColors");
+    const titleSize = document.getElementById("titleSize");
+    const titleColor = document.getElementById("titleColor");
+    if (product.medidas) {
+      titleSize.textContent = "Tamanhos disponíveis:";
+      Object.keys(product.medidas).forEach((medida) => {
+        const btnMedida = document.createElement("button");
+        btnMedida.textContent = medida + " cm";
+        btnMedida.addEventListener("click", () => {
+          colorContainer.innerHTML = "";
+          titleColor.textContent = "Cores disponíveis:";
+          if (product.medidas[medida]) {
+            Object.keys(product.medidas[medida]).forEach((cor) => {
+              const btn = document.createElement("button");
+              btn.textContent = cor;
+              btn.addEventListener("click", () => {
+                document.getElementById("productImage").src =
+                  product.medidas[medida][cor];
+              });
+              colorContainer.appendChild(btn);
             });
-            colorContainer.appendChild(btn);
-          });
-          const primeiraCor = Object.keys(product.medidas[medida])[0];
-          document.getElementById("productImage").src =
-            product.medidas[medida][primeiraCor];
-        }
+            const primeiraCor = Object.keys(product.medidas[medida])[0];
+            document.getElementById("productImage").src =
+              product.medidas[medida][primeiraCor];
+          }
+        });
+        productMeasures.appendChild(btnMedida);
       });
-      productMeasures.appendChild(btnMedida);
-    });
+    }
   }
 }
 // links de produtos relacionados
@@ -340,5 +355,40 @@ function generateIndustrialCatalogue() {
     card.appendChild(cardName);
 
     catalogue.appendChild(card);
+  });
+}
+
+const searchFn = document.getElementById("searchInput");
+
+searchFn.addEventListener("input", searchItems);
+function searchItems() {
+  const title = document.getElementById("catalogueTitle");
+  const searchInput = document
+    .getElementById("searchInput")
+    .value.toLowerCase();
+  catalogue.innerHTML = "";
+  Object.entries(products).forEach(([id, product]) => {
+    if (
+      product.name.toLowerCase().includes(searchInput) &&
+      title.textContent.includes(product.category)
+    ) {
+      const card = document.createElement("a");
+      card.classList.add("card-link");
+      card.href = `../pages/product.html?id=${id}`;
+      const cardDiv = document.createElement("div");
+      cardDiv.classList.add("card");
+      const cardImage = document.createElement("img");
+      cardImage.classList.add("card-image");
+      cardImage.src = product.cardImage;
+
+      const cardName = document.createElement("p");
+      cardName.classList.add("card-name");
+      cardName.textContent = product.name;
+      cardDiv.appendChild(cardImage);
+      card.appendChild(cardDiv);
+      card.appendChild(cardName);
+
+      catalogue.appendChild(card);
+    }
   });
 }

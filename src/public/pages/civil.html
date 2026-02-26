@@ -12,7 +12,12 @@
       crossorigin="anonymous"
     />
   </head>
-  <body onload="generateCivilCatalogue()">
+  <body
+    onload="
+      generateCivilCatalogue();
+      searchItems();
+    "
+  >
     <header class="page header">
       <img class="logo" src="../images/main/logo.png" alt="Alumark" />
       <i class="bi bi-list item item-nav" id="menu-btn"></i>
@@ -86,21 +91,23 @@
     <!--  -->
     <main>
       <div class="container">
-        <h1 class="title main-title">Produtos - Construção Civil</h1>
+        <h1 id="catalogueTitle" class="title main-title hero">
+          Produtos - Construção Civil
+        </h1>
       </div>
-      <form action="/search" method="get" role="search" class="search-form">
+      <div role="search" id="searchItem" class="search-form">
         <input
           class="search-input"
           type="search"
-          id="site-search"
+          id="searchInput"
           name="q"
           placeholder="Pesquisar..."
           aria-label="Search through site content"
         />
-        <button type="submit" class="search-button">
+        <button class="search-button" id="btnSearch">
           <i class="bi bi-search"></i>
         </button>
-      </form>
+      </div>
       <div class="catalogue"></div>
       <br />
     </main>

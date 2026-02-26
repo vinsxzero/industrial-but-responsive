@@ -394,6 +394,7 @@ form label {
 }
 .product-description {
   width: 50%;
+  gap: 10px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -402,6 +403,10 @@ form label {
 .product-description h1 {
   font-size: 3em;
   width: 50%;
+}
+.product-description li {
+  text-align: right;
+  list-style-type: none;
 }
 .product-description * {
   text-align: end;
@@ -426,8 +431,8 @@ form label {
 .carousel-track {
   display: flex;
   gap: 1.5rem;
-  width: max-content;
-  animation: scroll 20s linear infinite;
+
+  animation: scroll 50s linear infinite;
 }
 
 .carousel-track:hover {
@@ -465,12 +470,9 @@ form label {
 .products .card:hover {
   width: 6em;
   height: 6em;
-  transition:
-    width 0.3s,
-    height 0.3s;
 }
 hr {
-  width: 1000px;
+  width: 80%;
   margin: 3rem;
 }
 
@@ -773,6 +775,7 @@ hr {
   body ul {
     font-size: 1.25rem;
   }
+
   .logo {
     width: 170px;
     height: 50px;
@@ -931,10 +934,7 @@ hr {
     height: 200px;
     margin-bottom: 50px;
   }
-  footer .container .main-title {
-    font-size: 36px;
-    color: #989898;
-  }
+
   form {
     width: 80%;
     font-size: 12px;
@@ -966,7 +966,11 @@ hr {
   }
 }
 
-@media (min-width: 320px) and (max-width: 700px) {
+@media (min-width: 320px) and (max-width: 749px) {
+  body {
+    overflow-x: hidden;
+  }
+
   body p {
     font-size: 1rem;
     font-weight: 300;
@@ -994,7 +998,7 @@ hr {
   }
   .title.main-title.hero {
     font-size: 3rem;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
   }
 
   .about {
@@ -1078,8 +1082,8 @@ hr {
     font-size: 2.5rem;
   }
   .card {
-    width: 3em;
-    height: 3em;
+    width: 3.5em;
+    height: 3.5em;
   }
   .container.products {
     flex-direction: column;
@@ -1096,5 +1100,66 @@ hr {
   }
   .card-name {
     width: 50%;
+    text-align: center;
+  }
+  .search-input:focus {
+    outline: none;
+    border-color: #044d91;
+    box-shadow: 0 0 0 2px #044d91;
+  }
+  .faq {
+    flex-direction: column;
+    width: 100%;
+  }
+  .addresses {
+    width: 100%;
+  }
+  .faq form {
+    width: 100%;
+  }
+  .catalogue {
+    margin-top: 20px;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    gap: 5px;
+  }
+  .search-form {
+    width: 100%;
+    gap: 5px;
+  }
+  .search-form .search-input {
+    width: 90%;
+  }
+
+  .container.product {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+  .product-description {
+    width: 100%;
+    align-items: flex-start;
+
+    gap: 10px;
+  }
+  .product-description li {
+    text-align: left;
+    list-style-type: none;
+  }
+  #productName {
+    width: 80%;
+    font-size: 2.5em;
+    text-align: left;
+  }
+  #productColors {
+    text-align: left;
+    justify-content: flex-start;
+    margin: 10px;
+  }
+  .prod-image {
+    width: 70%;
+  }
+  hr {
+    width: 80%;
   }
 }
