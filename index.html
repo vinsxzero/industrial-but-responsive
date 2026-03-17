@@ -1,1 +1,227 @@
-<h1>Hello world</h1>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alumark</title>
+    <link rel="stylesheet" href="../style/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body onload="generateRandomSuggestion()">
+    <header class="page header">
+      <img class="logo" src="/images/main/logo.png" alt="Alumark" />
+      <i class="bi bi-list item item-nav" id="menu-btn"></i>
+      <nav class="menu-nav dropdown-menu close">
+        <ul>
+          <li>
+            <a href="/src/public/pages/index.html" class="item"
+              ><em><strong>Home</strong></em></a
+            >
+          </li>
+          <li>
+            <a href="/src/public/pages/contato.html" class="item"
+              ><em>Contato</em></a
+            >
+          </li>
+          <li class="dropdown">
+            <a href="/src/public/pages/perfis.html" class="item"
+              ><em>Perfis Industriais</em></a
+            >
+            <div class="perfil-section">
+              <a href="/src/public/pages/product.html?id=1" class="item"
+                >Perfil Industrial em Alumínio >></a
+              >
+              <a href="/src/public/pages/product.html?id=2" class="item"
+                >Perfil em Alumínio >></a
+              >
+              <a href="/src/public/pages/product.html?id=3" class="item"
+                >Esquadrias em Alumínio >></a
+              >
+            </div>
+          </li>
+          <li>
+            <a href="/src/public/pages/civil.html" class="item">
+              <em>Construção Civil</em>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a href="/src/public/pages/index.html" class="item"
+              ><em><strong>Home</strong></em></a
+            >
+          </li>
+          <li>
+            <a href="/src/public/pages/contato.html" class="item"
+              ><em>Contato</em></a
+            >
+          </li>
+          <li class="dropdown">
+            <a href="/src/public/pages/perfis.html" class="item"
+              ><em>Perfis Industriais</em></a
+            >
+            <div class="dropdown-menu">
+              <a href="/src/public/pages/product.html?id=1" class="item"
+                >Perfil Industrial em Alumínio >></a
+              >
+              <a href="/src/public/pages/product.html?id=2" class="item"
+                >Perfil em Alumínio >></a
+              >
+              <a href="/src/public/pages/product.html?id=3" class="item"
+                >Esquadrias em Alumínio >></a
+              >
+            </div>
+          </li>
+          <li>
+            <a href="/src/public/pages/civil.html" class="item">
+              <em>Construção Civil</em>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="container">
+        <h1 class="title main-title hero">
+          Modernidade, Design e Sofisticação
+        </h1>
+      </div>
+      <section class="about">
+        <div class="about-img">
+          <div class="gradient"></div>
+        </div>
+        <div class="about-text">
+          <h2 class="title">Quem Somos?</h2>
+          <br />
+          <p>
+            Uma empresa consolidada no mercado a mais de 27 anos, a Alumark
+            cresceu com o fundamento de respeito e bom relacionamento com seu
+            consumidor, investindo na atualização em tecnologia e designer da
+            atualidade.
+          </p>
+        </div>
+      </section>
+      <section class="mission">
+        <div class="object">
+          <div class="row selected" data-target="objective">
+            <h2>Missão</h2>
+            <i class="bi bi-caret-right item arrow"></i>
+          </div>
+          <div class="row" data-target="vision">
+            <h2>Visão</h2>
+            <i class="bi bi-caret-right item arrow"></i>
+          </div>
+          <div class="row" data-target="value">
+            <h2>Valores</h2>
+            <i class="bi bi-caret-right item arrow"></i>
+          </div>
+        </div>
+
+        <div class="mission-text">
+          <div id="objective" class="content selected">
+            <p>
+              Atender diversos campos da Construção Civil, Arquitetura,
+              Engenharia e Industria onde produtos em alumínio seja necessário
+              para que o usuário tenha a melhor experiência com designer,
+              tecnologia e durabilidade. Graças aos nossos parceiros, você pode
+              encontrar ties on-line para atender a todas as preferências e
+              orçamentos, do orçamento ao topo de gama modelos super estilosos.
+            </p>
+          </div>
+          <div class="content" id="vision">
+            <p>
+              Ser referência no mercado com produtos de qualidade, durabilidade
+              e tecnologia.
+            </p>
+          </div>
+          <div class="content" id="value">
+            <ul>
+              <li>Agir de forma correta;</li>
+              <li>A vida em primeiro lugar;</li>
+              <li>Valorizar quem faz a nossa empresa;</li>
+              <li>Crescer e evoluir juntos;</li>
+              <li>Fazer acontecer</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <div class="container">
+        <h2 class="title main-title">Nossos produtos</h2>
+      </div>
+      <div class="container products">
+        <a class="card-link">
+          <div class="card"><img class="card-image" /></div>
+          <h3 class="card-name"></h3>
+        </a>
+        <a class="card-link">
+          <div class="card"><img class="card-image" /></div>
+          <h3 class="card-name"></h3>
+        </a>
+        <a class="card-link">
+          <div class="card"><img class="card-image" /></div>
+          <h3 class="card-name"></h3>
+        </a>
+      </div>
+
+      <div class="container">
+        <h2 class="title main-title">Nossos clientes</h2>
+      </div>
+
+      <div class="container clients">
+        <div class="carousel-track">
+          <div class="carousel-item card">1</div>
+          <div class="carousel-item card">2</div>
+          <div class="carousel-item card">3</div>
+          <div class="carousel-item card">4</div>
+          <div class="carousel-item card">5</div>
+          <div class="carousel-item card">6</div>
+          <div class="carousel-item card">7</div>
+          <div class="carousel-item card">8</div>
+          <div class="carousel-item card">9</div>
+          <div class="carousel-item card">10</div>
+          <div class="carousel-item card">1</div>
+          <div class="carousel-item card">2</div>
+          <div class="carousel-item card">3</div>
+          <div class="carousel-item card">4</div>
+          <div class="carousel-item card">5</div>
+          <div class="carousel-item card">6</div>
+          <div class="carousel-item card">7</div>
+          <div class="carousel-item card">8</div>
+          <div class="carousel-item card">9</div>
+          <div class="carousel-item card">10</div>
+        </div>
+      </div>
+    </main>
+    <footer class="page footer">
+      <br />
+      <i class="bi bi-instagram item icon">
+        <a class="item" href="https://www.instagram.com/alumark_aluminios/"
+          >/Alumark</a
+        >
+      </i>
+      <i class="bi bi-telephone item icon">
+        <a class="item" href="https://instagram.com">(11) 99999-9999</a>
+      </i>
+      <i class="bi bi-envelope item icon">
+        <a class="item icon" href="https://instagram.com">email@dominio.com</a>
+      </i>
+
+      <p class="item">
+        <em>Alumark™ Todos os direitos reservados - <span id="year"></span></em>
+      </p>
+    </footer>
+
+    <script src="public/src/scripts/index.js"></script>
+    <script src="public/src/scripts/carousel.js"></script>
+    <script src="public/src/scripts/products.js">
+      generateRandomSuggestions();
+    </script>
+  </body>
+</html>
