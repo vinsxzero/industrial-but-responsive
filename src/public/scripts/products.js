@@ -52,6 +52,10 @@ const products = {
         Preto: "../images/products/alca_80cm_preta.jpg",
         Branco: "../images/products/alca_80cm_branca.jpg",
       },
+      100: {
+        Preto: "../images/products/alca_100cm_preta.jpg",
+        Branco: "../images/products/alca_100cm_branca.jpg",
+      },
     },
     image: "../images/products/alca_25cm_preta.jpg",
     cardImage: "../images/products/cards/4.jpg",
@@ -241,10 +245,186 @@ const products = {
     image: "../images/products/cantoneira_redonda.jpg",
     cardImage: "../images/products/cards/11.jpg",
   },
-};
-const clients = {
-  1: {
-    logo: "../images/clients/1.png",
+
+  12: {
+    category: "Construção Civil",
+    name: "Cantoneira L ",
+    description: "",
+    medidas: {
+      "1/2'": {
+        Polido: "../images/products/cantoneiraL_polida.jpg",
+        Branco: "../images/products/cantoneiraL_branca.jpg",
+      },
+      "2'": {
+        Polido: "../images/products/cantoneiraL_polida.jpg",
+        Branco: "../images/products/cantoneiraL_branca.jpg",
+      },
+    },
+    image: "../images/products/cantoneiraL_branca.jpg",
+    cardImage: "../images/products/cards/9.jpg",
+  },
+  13: {
+    name: "Canto Reboco/Massa",
+    category: "Construção Civil",
+    description: "",
+    medidas: {
+      "30x20x2000": {
+        Brilhante: "../images/products/cantoReboco.jpg",
+      },
+    },
+    image: "../images/products/cantoReboco.jpg",
+    cardImage: "../images/products/cards/13.jpg",
+  },
+  14: {
+    name: "Canto Móveis / Divisórias",
+    category: "Construção Civil",
+    description: "",
+    medidas: {
+      "3/4'": {
+        Bicromado: "../images/products/cantoMoveis_bicromado.jpg",
+        Zincado: "../images/products/cantoMoveis_zincado.jpg",
+      },
+      "1'": {
+        Bicromado: "../images/products/cantoMoveis_bicromado.jpg",
+        Zincado: "../images/products/cantoMoveis_zincado.jpg",
+      },
+      "1 1/2'": {
+        Bicromado: "../images/products/cantoMoveis_bicromado.jpg",
+        Zincado: "../images/products/cantoMoveis_zincado.jpg",
+      },
+      "2'": {
+        Bicromado: "../images/products/cantoMoveis_bicromado.jpg",
+        Zincado: "../images/products/cantoMoveis_zincado.jpg",
+      },
+      "3'": {
+        Bicromado: "../images/products/cantoMoveis_bicromado.jpg",
+        Zincado: "../images/products/cantoMoveis_zincado.jpg",
+      },
+      "4'": {
+        Bicromado: "../images/products/cantoMoveis_bicromado.jpg",
+        Zincado: "../images/products/cantoMoveis_zincado.jpg",
+      },
+    },
+    image: "../images/products/cantoMoveis.jpg",
+    cardImage: "../images/products/cards/14.jpg",
+  },
+  15: {
+    name: "Friso Junção",
+    category: "Construção Civil",
+    description: "",
+    medidas: {
+      "30x15x2000": {
+        Branco: "../images/products/frisoJuncao_branco.jpg",
+        Preto: "../images/products/frisoJuncao_preto.jpg",
+        Acetinado: "../images/products/frisoJuncao_acetinado.jpg",
+      },
+    },
+    image: "../images/products/frisoJuncao_branco.jpg",
+    cardImage: "../images/products/cards/15.jpg",
+  },
+  16: {
+    name: "Friso Soleira",
+    category: "Construção Civil",
+    description: "",
+    medidas: {
+      "30x15x2000": {
+        Branco: "../images/products/frisoSoleira_branco.jpg",
+        Preto: "../images/products/frisoSoleira_preto.jpg",
+        Acetinado: "../images/products/frisoSoleira_acetinado.jpg",
+      },
+    },
+    image: "../images/products/frisoSoleira_branco.jpg",
+    cardImage: "../images/products/cards/16.jpg",
+  },
+  17: {
+    name: "Perfil Led Sobrepor",
+    category: "Construção Civil",
+    description: "",
+    medidas: {
+      "17x7": {
+        Branco: "../images/products/perfilLedSobrepor_branco.jpg",
+        Preto: "../images/products/perfilLedSobrepor_preto.jpg",
+        Acetinado: "../images/products/perfilLedSobrepor_acetinado.jpg",
+      },
+    },
+    image: "../images/products/perfilLedSobrepor_branco.jpg",
+    cardImage: "../images/products/cards/17.jpg",
+  },
+  18: {
+    name: "Perfil Led Baby Sobrepor",
+    category: "Construção Civil",
+    description: "",
+    medidas: {
+      "11x11": {
+        Branco: "../images/products/perfilLedBabySobrepor_branco.jpg",
+        Preto: "../images/products/perfilLedBabySobrepor_preto.jpg",
+        Acetinado: "../images/products/perfilLedBabySobrepor_acetinado.jpg",
+      },
+    },
+    image: "../images/products/perfilLedBabySobrepor_branco.jpg",
+    cardImage: "../images/products/cards/18.jpg",
+  },
+  19: {
+    name: "Perfil Led Embutir",
+    category: "Construção Civil",
+    description: "",
+    medidas: {
+      "24x7": {
+        Branco: "../images/products/perfilLedEmbutir_branco.jpg",
+        Preto: "../images/products/perfilLedEmbutir_preto.jpg",
+        Acetinado: "../images/products/perfilLedEmbutir_acetinado.jpg",
+      },
+    },
+    image: "../images/products/perfilLedEmbutir_branco.jpg",
+    cardImage: "../images/products/cards/19.jpg",
+  },
+  20: {
+    name: "Perfil Led Baby Embutir",
+    category: "Construção Civil",
+    description: "",
+    medidas: {
+      "20x11": {
+        Branco: "../images/products/perfilLedBabyEmbutir_branco.jpg",
+        Preto: "../images/products/perfilLedBabyEmbutir_preto.jpg",
+        Acetinado: "../images/products/perfilLedBabyEmbutir_acetinado.jpg",
+      },
+    },
+    image: "../images/products/perfilLedBabyEmbutir_branco.jpg",
+    cardImage: "../images/products/cards/20.jpg",
+  },
+  21: {
+    name: "Kit Corrimão Chato",
+    category: "Construção Civil",
+    description: "",
+    medidas: {
+      1000: {
+        Branco: "../images/products/kitCorrimaoChato_branco.jpg",
+        Preto: "../images/products/kitCorrimaoChato_preto.jpg",
+        Polido: "../images/products/kitCorrimaoChato_polido.jpg",
+      },
+      1500: {
+        Branco: "../images/products/kitCorrimaoChato_branco.jpg",
+        Preto: "../images/products/kitCorrimaoChato_preto.jpg",
+        Polido: "../images/products/kitCorrimaoChato_polido.jpg",
+      },
+      2000: {
+        Branco: "../images/products/kitCorrimaoChato_branco.jpg",
+        Preto: "../images/products/kitCorrimaoChato_preto.jpg",
+        Polido: "../images/products/kitCorrimaoChato_polido.jpg",
+      },
+      3000: {
+        Branco: "../images/products/kitCorrimaoChato_branco.jpg",
+        Preto: "../images/products/kitCorrimaoChato_preto.jpg",
+        Polido: "../images/products/kitCorrimaoChato_polido.jpg",
+      },
+      4000: {
+        Branco: "../images/products/kitCorrimaoChato_branco.jpg",
+        Preto: "../images/products/kitCorrimaoChato_preto.jpg",
+        Polido: "../images/products/kitCorrimaoChato_polido.jpg",
+      },
+    },
+    image: "../images/products/kitCorrimaoChato_branco.jpg",
+    cardImage: "../images/products/cards/21.jpg",
   },
 };
 
