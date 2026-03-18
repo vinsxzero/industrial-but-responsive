@@ -735,10 +735,11 @@ const products = {
     description:
       "A régua de gesseiro, geralmente feita de alumínio (cantoneira ou perfil 'L'), é uma ferramenta essencial para nivelar, sarrafear e dar acabamento em superfícies de gesso. Ela garante o prumo, alinhamento de paredes e quinas (cantos) perfeitos, evitando rachaduras. É usada para espalhar e remover o excesso de gesso, criando superfícies lisas",
     medidas: {
-      "50 x 15 x 15": {
-        Branco: "../images/products/reguaGesseiro.jpg",
-        Preto: "../images/products/reguaGesseiro.jpg",
-        Brilhante: "../images/products/reguaGesseiro.jpg",
+      "50 x 14 x 1000": {
+        Natural: "../images/products/reguaBitubular.jpg",
+      },
+      "50 x 14 x 2000": {
+        Natural: "../images/products/reguaBitubular.jpg",
       },
     },
     image: "../images/products/reguaGesseiro.jpg",
@@ -750,10 +751,11 @@ const products = {
     description:
       "A régua de gesseiro, geralmente feita de alumínio (cantoneira ou perfil 'L'), é uma ferramenta essencial para nivelar, sarrafear e dar acabamento em superfícies de gesso. Ela garante o prumo, alinhamento de paredes e quinas (cantos) perfeitos, evitando rachaduras. É usada para espalhar e remover o excesso de gesso, criando superfícies lisas",
     medidas: {
-      "50 x 15 x 15": {
-        Branco: "../images/products/reguaLGesseiro.jpg",
-        Preto: "../images/products/reguaLGesseiro.jpg",
-        Brilhante: "../images/products/reguaLGesseiro.jpg",
+      "50 x 50 x 2000": {
+        Natural: "../images/products/reguaBitubular.jpg",
+      },
+      "50 x 50 x 3000": {
+        Natural: "../images/products/reguaBitubular.jpg",
       },
     },
     image: "../images/products/reguaLGesseiro.jpg",
@@ -765,10 +767,11 @@ const products = {
     description:
       "Suporte para antena simples, ideal para instalações de comunicação em ambientes industriais e comerciais",
     medidas: {
-      "50 x 15 x 15": {
-        Branco: "../images/products/suporteAntenaSimples.jpg",
-        Preto: "../images/products/suporteAntenaSimples.jpg",
-        Brilhante: "../images/products/suporteAntenaSimples.jpg",
+      "PREG./PARAF. 155x55": {
+        Bicromado: "../images/products/suporteAntenaSimples.jpg",
+      },
+      "CHUMBADO. 155x55": {
+        Bicromado: "../images/products/suporteAntenaSimples.jpg",
       },
     },
     image: "../images/products/suporteAntenaSimples.jpg",
