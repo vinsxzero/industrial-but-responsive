@@ -14,7 +14,7 @@
   </head>
   <body onload="generateIndustrialCatalogue()">
     <header class="page header">
-      <img class="logo" src="../images/main/logo.png" alt="Alumark" />
+      <img class="logo" src="/src/public/images/main/logo.png" alt="Alumark" />
       <i class="bi bi-list item item-nav" id="menu-btn"></i>
       <nav class="menu-nav dropdown-menu close">
         <ul>
@@ -95,12 +95,13 @@
         <input
           class="search-input"
           type="search"
-          id="site-search"
+          id="searchInput"
           name="q"
           placeholder="Pesquisar..."
           aria-label="Search through site content"
+          disabled
         />
-        <button type="submit" class="search-button">
+        <button disabled class="search-button">
           <i class="bi bi-search"></i>
         </button>
       </form>
