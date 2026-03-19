@@ -237,18 +237,18 @@ const products = {
       "A cantoneira redonda é um perfil metálico utilizado para o acabamento e proteção de quinas de paredes, pisos e azulejos, apresentando um formato externo circular que confere um aspecto estético sofisticado. Ela é resistente, durável e protege revestimentos contra impactos e desgastes.",
     medidas: {
       "200 x 3000 x 15": {
-        Polido: "../images/products/cantoneira_redonda.jpg",
-        Branco: "../images/products/cantoneira_redonda.jpg",
-        Preto: "../images/products/cantoneira_redonda.jpg",
-        Bege: "../images/products/cantoneira_redonda.jpg",
-        "Preto Fosco": "../images/products/cantoneira_redonda.jpg",
-        Acetinada: "../images/products/cantoneira_redonda.jpg",
-        "Marrom Corten": "../images/products/cantoneira_redonda.jpg",
-        Bronze: "../images/products/cantoneira_redonda.jpg",
-        Champanhe: "../images/products/cantoneira_redonda.jpg",
+        Polido: "../images/products/cards/11.jpg",
+        Branco: "../images/products/cards/11.jpg",
+        Preto: "../images/products/cards/11.jpg",
+        Bege: "../images/products/cards/11.jpg",
+        "Preto Fosco": "../images/products/cards/11.jpg",
+        Acetinada: "../images/products/cards/11.jpg",
+        "Marrom Corten": "../images/products/cards/11.jpg",
+        Bronze: "../images/products/cards/11.jpg",
+        Champanhe: "../images/products/cards/11.jpg",
       },
     },
-    image: "../images/products/cantoneira_redonda.jpg",
+    image: "../images/products/cards/11.jpg",
     cardImage: "/src/public/images/products/cards/11.jpg",
   },
 
@@ -679,13 +679,13 @@ const products = {
       "A Régua Reforçada (ou régua de pedreiro reforçada) é uma ferramenta essencial na construção civil, fabricada em alumínio de alta resistência para garantir alinhamento, nivelamento e sarrafeamento de reboco ou gesso com maior durabilidade. Sua estrutura bitubular ou de maior espessura impede empenamentos, facilitando o acabamento em superfícies grandes, pisos e paredes.",
     medidas: {
       "47 x 20 x 1000": {
-        Natural: "../images/products/reguaBitubular.jpg",
+        Natural: "../images/products/reguaReforcada.jpg",
       },
       "47 x 20 x 2000": {
-        Natural: "../images/products/reguaBitubular.jpg",
+        Natural: "../images/products/reguaReforcada.jpg",
       },
       "47 x 20 x 3000": {
-        Natural: "../images/products/reguaBitubular.jpg",
+        Natural: "../images/products/reguaReforcada.jpg",
       },
     },
     image: "../images/products/reguaReforcada.jpg",
@@ -698,13 +698,13 @@ const products = {
       "Uma Régua Extra Larga é uma ferramenta de construção civil, geralmente de alumínio, com largura superior às réguas comuns (frequentemente 50cm ou mais), usada por pedreiros para nivelar, sarrafear e dar acabamento em rebocos, contrapisos e grandes superfícies. Sua estrutura reforçada evita empenamentos e garante maior precisão e rapidez",
     medidas: {
       "80 x 25 x 1000": {
-        Natural: "../images/products/reguaBitubular.jpg",
+        Natural: "../images/products/reguaExtraLarga.jpg",
       },
       "80 x 25 x 2000": {
-        Natural: "../images/products/reguaBitubular.jpg",
+        Natural: "../images/products/reguaExtraLarga.jpg",
       },
       "80 x 25 x 3000": {
-        Natural: "../images/products/reguaBitubular.jpg",
+        Natural: "../images/products/reguaExtraLarga.jpg",
       },
     },
     image: "../images/products/reguaExtraLarga.jpg",
@@ -717,13 +717,13 @@ const products = {
       "Uma Régua Super Reforçada é uma ferramenta de construção de alta durabilidade, geralmente feita de alumínio espesso ou bi-tubular, projetada para nivelamento, sarrafeamento e acabamento de reboco. Ela resiste ao uso intenso em obras sem empenar, garantindo precisão no alinhamento de pisos e paredes",
     medidas: {
       "50 x 25 x 1000": {
-        Natural: "../images/products/reguaBitubular.jpg",
+        Natural: "../images/products/reguaSuperReforcada.jpg",
       },
       "50 x 25 x 2000": {
-        Natural: "../images/products/reguaBitubular.jpg",
+        Natural: "../images/products/reguaSuperReforcada.jpg",
       },
       "50 x 25 x 3000": {
-        Natural: "../images/products/reguaBitubular.jpg",
+        Natural: "../images/products/reguaSuperReforcada.jpg",
       },
     },
     image: "../images/products/reguaSuperReforcada.jpg",
@@ -736,10 +736,10 @@ const products = {
       "A régua de gesseiro, geralmente feita de alumínio (cantoneira ou perfil 'L'), é uma ferramenta essencial para nivelar, sarrafear e dar acabamento em superfícies de gesso. Ela garante o prumo, alinhamento de paredes e quinas (cantos) perfeitos, evitando rachaduras. É usada para espalhar e remover o excesso de gesso, criando superfícies lisas",
     medidas: {
       "50 x 14 x 1000": {
-        Natural: "../images/products/reguaBitubular.jpg",
+        Natural: "../images/products/reguaGesseiro.jpg",
       },
       "50 x 14 x 2000": {
-        Natural: "../images/products/reguaBitubular.jpg",
+        Natural: "../images/products/reguaGesseiro.jpg",
       },
     },
     image: "../images/products/reguaGesseiro.jpg",
@@ -752,10 +752,10 @@ const products = {
       "A régua de gesseiro, geralmente feita de alumínio (cantoneira ou perfil 'L'), é uma ferramenta essencial para nivelar, sarrafear e dar acabamento em superfícies de gesso. Ela garante o prumo, alinhamento de paredes e quinas (cantos) perfeitos, evitando rachaduras. É usada para espalhar e remover o excesso de gesso, criando superfícies lisas",
     medidas: {
       "50 x 50 x 2000": {
-        Natural: "../images/products/reguaBitubular.jpg",
+        Natural: "../images/products/reguaLGesseiro.jpg",
       },
       "50 x 50 x 3000": {
-        Natural: "../images/products/reguaBitubular.jpg",
+        Natural: "../images/products/reguaLGesseiro.jpg",
       },
     },
     image: "../images/products/reguaLGesseiro.jpg",
@@ -798,10 +798,11 @@ const products = {
     description:
       "Suporte para antena cavalo simples, ideal para instalações de comunicação em ambientes industriais e comerciais",
     medidas: {
-      "50 x 15 x 15": {
-        Branco: "../images/products/suporteAntenaCavaloSimples.jpg",
-        Preto: "../images/products/suporteAntenaCavaloSimples.jpg",
-        Brilhante: "../images/products/suporteAntenaCavaloSimples.jpg",
+      "PREG./PARAF. 195x150": {
+        Bicromado: "../images/products/suporteAntenaCavaloSimples.jpg",
+      },
+      "CHUMBADO. 195x150": {
+        Bicromado: "../images/products/suporteAntenaCavaloSimples.jpg",
       },
     },
     image: "../images/products/suporteAntenaCavaloSimples.jpg",
@@ -813,10 +814,11 @@ const products = {
     description:
       "Suporte para antena cavalo dupla, ideal para instalações de comunicação em ambientes industriais e comerciais",
     medidas: {
-      "50 x 15 x 15": {
-        Branco: "../images/products/suporteAntenaCavaloDuplo.jpg",
-        Preto: "../images/products/suporteAntenaCavaloDuplo.jpg",
-        Brilhante: "../images/products/suporteAntenaCavaloDuplo.jpg",
+      "PREG./PARAF. 200x175": {
+        Bicromado: "../images/products/suporteAntenaCavaloDuplo.jpg",
+      },
+      "CHUMBADO. 200x175": {
+        Bicromado: "../images/products/suporteAntenaCavaloDuplo.jpg",
       },
     },
     image: "../images/products/suporteAntenaCavaloDuplo.jpg",
@@ -828,10 +830,8 @@ const products = {
     description:
       "Suporte para antena tripé, ideal para instalações de comunicação em ambientes industriais e comerciais",
     medidas: {
-      "50 x 15 x 15": {
-        Branco: "../images/products/suporteAntenaTripe.jpg",
-        Preto: "../images/products/suporteAntenaTripe.jpg",
-        Brilhante: "../images/products/suporteAntenaTripe.jpg",
+      "180 x 250": {
+        Bicromado: "../images/products/suporteAntenaTripe.jpg",
       },
     },
     image: "../images/products/suporteAntenaTripe.jpg",
@@ -843,10 +843,8 @@ const products = {
     description:
       "Suporte para antena emenda, ideal para instalações de comunicação em ambientes industriais e comerciais",
     medidas: {
-      "50 x 15 x 15": {
-        Branco: "../images/products/suporteAntenaEmenda.jpg",
-        Preto: "../images/products/suporteAntenaEmenda.jpg",
-        Brilhante: "../images/products/suporteAntenaEmenda.jpg",
+      "40 x 200 x 55": {
+        Bicromado: "../images/products/suporteAntenaEmenda.jpg",
       },
     },
     image: "../images/products/suporteAntenaEmenda.jpg",
@@ -858,10 +856,8 @@ const products = {
     description:
       "Tubo para antena, ideal para instalações de comunicação em ambientes industriais e comerciais",
     medidas: {
-      "50 x 15 x 15": {
-        Branco: "../images/products/tuboAntena.jpg",
-        Preto: "../images/products/tuboAntena.jpg",
-        Brilhante: "../images/products/tuboAntena.jpg",
+      "25 x 25 x 3000": {
+        Natural: "../images/products/tuboAntena.jpg",
       },
     },
     image: "../images/products/tuboAntena.jpg",
@@ -873,10 +869,37 @@ const products = {
     description:
       "A mão francesa é um suporte estrutural em formato triangular (ou em 'L' com reforço diagonal) usado para sustentar prateleiras, bancadas, mesas, pias e nichos suspensos na parede. Ela funciona como um braço de apoio, transferindo a carga do objeto para a parede, sendo ideal para maximizar espaço.",
     medidas: {
-      "50 x 15 x 15": {
+      "20 x 95 x 150": {
         Branco: "../images/products/maoFrancesa.jpg",
         Preto: "../images/products/maoFrancesa.jpg",
-        Brilhante: "../images/products/maoFrancesa.jpg",
+      },
+      "20 x 100 x 200": {
+        Branco: "../images/products/maoFrancesa.jpg",
+        Preto: "../images/products/maoFrancesa.jpg",
+      },
+      "20 x 140 x 250": {
+        Branco: "../images/products/maoFrancesa.jpg",
+        Preto: "../images/products/maoFrancesa.jpg",
+      },
+      "20 x 170 x 300": {
+        Branco: "../images/products/maoFrancesa.jpg",
+        Preto: "../images/products/maoFrancesa.jpg",
+      },
+      "20 x 200 x 350": {
+        Branco: "../images/products/maoFrancesa.jpg",
+        Preto: "../images/products/maoFrancesa.jpg",
+      },
+      "25 x 240 x 400": {
+        Branco: "../images/products/maoFrancesa.jpg",
+        Preto: "../images/products/maoFrancesa.jpg",
+      },
+      "25 x 30 x 500": {
+        Branco: "../images/products/maoFrancesa.jpg",
+        Preto: "../images/products/maoFrancesa.jpg",
+      },
+      "25 x 40 x 600": {
+        Branco: "../images/products/maoFrancesa.jpg",
+        Preto: "../images/products/maoFrancesa.jpg",
       },
     },
     image: "../images/products/maoFrancesa.jpg",
@@ -888,10 +911,14 @@ const products = {
     description:
       "A mão francesa retratil é um suporte estrutural em formato triangular (ou em 'L' com reforço diagonal) usado para sustentar prateleiras, bancadas, mesas, pias e nichos suspensos na parede. Ela funciona como um braço de apoio, transferindo a carga do objeto para a parede, sendo ideal para maximizar espaço.",
     medidas: {
-      "50 x 15 x 15": {
+      "30 x 60 x 300": {
         Branco: "../images/products/prateleiraRetratil.jpg",
-        Preto: "../images/products/prateleiraRetratil.jpg",
-        Brilhante: "../images/products/prateleiraRetratil.jpg",
+      },
+      "30 x 60 x 400": {
+        Branco: "../images/products/prateleiraRetratil.jpg",
+      },
+      "30 x 60 x 500": {
+        Branco: "../images/products/prateleiraRetratil.jpg",
       },
     },
     image: "../images/products/prateleiraRetratil.jpg",
@@ -903,10 +930,14 @@ const products = {
     description:
       "Também conhecido como grapa ou mão francesa, é uma peça metálica reforçada utilizada para sustentar pias, tanques e bancadas de pedra (mármore/granito). Diferente do modelo de chumbagem, este é fixado diretamente na parede com parafusos e buchas, oferecendo instalação rápida, sem quebra-quebra, com alta resistência e ocupando mínimo espaço",
     medidas: {
-      "50 x 15 x 15": {
+      "20 x 40 x 400": {
         Branco: "../images/products/suportePiaParafusar.jpg",
-        Preto: "../images/products/suportePiaParafusar.jpg",
-        Brilhante: "../images/products/suportePiaParafusar.jpg",
+      },
+      "20 x 40 x 500": {
+        Branco: "../images/products/suportePiaParafusar.jpg",
+      },
+      "20 x 40 x 600": {
+        Branco: "../images/products/suportePiaParafusar.jpg",
       },
     },
     image: "../images/products/suportePiaParafusar.jpg",
@@ -918,10 +949,14 @@ const products = {
     description:
       "Também conhecido como grapa ou mão francesa, é uma peça metálica reforçada utilizada para sustentar pias, tanques e bancadas de pedra (mármore/granito). Diferente do modelo de chumbagem, este é fixado diretamente na parede com parafusos e buchas, oferecendo instalação rápida, sem quebra-quebra, com alta resistência e ocupando mínimo espaço",
     medidas: {
-      "50 x 15 x 15": {
+      "20 x 20 x 300": {
         Branco: "../images/products/suportePiaChumbar.jpg",
-        Preto: "../images/products/suportePiaChumbar.jpg",
-        Brilhante: "../images/products/suportePiaChumbar.jpg",
+      },
+      "20 x 20 x 450": {
+        Branco: "../images/products/suportePiaChumbar.jpg",
+      },
+      "20 x 20 x 500": {
+        Branco: "../images/products/suportePiaChumbar.jpg",
       },
     },
     image: "../images/products/suportePiaChumbar.jpg",
@@ -933,10 +968,29 @@ const products = {
     description:
       "É um componente de fixação projetado para suportar cargas elevadas e garantir a estabilidade de prateleiras pesadas.",
     medidas: {
-      "50 x 15 x 15": {
+      "15 x 95 x 150": {
         Branco: "../images/products/suportePrateleiraForte.jpg",
         Preto: "../images/products/suportePrateleiraForte.jpg",
-        Brilhante: "../images/products/suportePrateleiraForte.jpg",
+      },
+      "15 x 110 x 200": {
+        Branco: "../images/products/suportePrateleiraForte.jpg",
+        Preto: "../images/products/suportePrateleiraForte.jpg",
+      },
+      "15 x 145 x 250": {
+        Branco: "../images/products/suportePrateleiraForte.jpg",
+        Preto: "../images/products/suportePrateleiraForte.jpg",
+      },
+      "15 x 175 x 300": {
+        Branco: "../images/products/suportePrateleiraForte.jpg",
+        Preto: "../images/products/suportePrateleiraForte.jpg",
+      },
+      "15 x 180 x 350": {
+        Branco: "../images/products/suportePrateleiraForte.jpg",
+        Preto: "../images/products/suportePrateleiraForte.jpg",
+      },
+      "15 x 250 x 400": {
+        Branco: "../images/products/suportePrateleiraForte.jpg",
+        Preto: "../images/products/suportePrateleiraForte.jpg",
       },
     },
     image: "../images/products/suportePrateleiraForte.jpg",
@@ -948,10 +1002,33 @@ const products = {
     description:
       "É um componente de fixação projetado para suportar cargas elevadas e garantir a estabilidade de prateleiras pesadas.",
     medidas: {
-      "50 x 15 x 15": {
+      "15 x 95 x 150": {
         Branco: "../images/products/suportePrateleiraReforcada.jpg",
         Preto: "../images/products/suportePrateleiraReforcada.jpg",
-        Brilhante: "../images/products/suportePrateleiraReforcada.jpg",
+      },
+      "15 x 105 x 200": {
+        Branco: "../images/products/suportePrateleiraReforcada.jpg",
+        Preto: "../images/products/suportePrateleiraReforcada.jpg",
+      },
+      "15 x 145 x 250": {
+        Branco: "../images/products/suportePrateleiraReforcada.jpg",
+        Preto: "../images/products/suportePrateleiraReforcada.jpg",
+      },
+      "15 x 175 x 300": {
+        Branco: "../images/products/suportePrateleiraReforcada.jpg",
+        Preto: "../images/products/suportePrateleiraReforcada.jpg",
+      },
+      "15 x 190 x 350": {
+        Branco: "../images/products/suportePrateleiraReforcada.jpg",
+        Preto: "../images/products/suportePrateleiraReforcada.jpg",
+      },
+      "15 x 250 x 400": {
+        Branco: "../images/products/suportePrateleiraReforcada.jpg",
+        Preto: "../images/products/suportePrateleiraReforcada.jpg",
+      },
+      "15 x 280 x 500": {
+        Branco: "../images/products/suportePrateleiraReforcada.jpg",
+        Preto: "../images/products/suportePrateleiraReforcada.jpg",
       },
     },
     image: "../images/products/suportePrateleiraReforcada.jpg",
@@ -963,10 +1040,21 @@ const products = {
     description:
       "É um componente de fixação projetado para suportar cargas elevadas e garantir a estabilidade de prateleiras pesadas.",
     medidas: {
-      "50 x 15 x 15": {
+      "25 x 170 x 300": {
         Branco: "../images/products/suportePrateleiraForte.jpg",
         Preto: "../images/products/suportePrateleiraForte.jpg",
-        Brilhante: "../images/products/suportePrateleiraForte.jpg",
+      },
+      "25 x 255 x 400": {
+        Branco: "../images/products/suportePrateleiraForte.jpg",
+        Preto: "../images/products/suportePrateleiraForte.jpg",
+      },
+      "25 x 315 x 500": {
+        Branco: "../images/products/suportePrateleiraForte.jpg",
+        Preto: "../images/products/suportePrateleiraForte.jpg",
+      },
+      "25 x 410 x 600": {
+        Branco: "../images/products/suportePrateleiraForte.jpg",
+        Preto: "../images/products/suportePrateleiraForte.jpg",
       },
     },
     image: "../images/products/suportePrateleiraForte.jpg",
@@ -978,10 +1066,20 @@ const products = {
     description:
       "É um componente de fixação projetado para suportar  prateleiras de vidro.",
     medidas: {
-      "50 x 15 x 15": {
+      "10 x 50 x 100": {
         Branco: "../images/products/suportePrateleiraVidro.jpg",
-        Preto: "../images/products/suportePrateleiraVidro.jpg",
-        Brilhante: "../images/products/suportePrateleiraVidro.jpg",
+      },
+      "10 x 80 x 150": {
+        Branco: "../images/products/suportePrateleiraVidro.jpg",
+      },
+      "10 x 75 x 200": {
+        Branco: "../images/products/suportePrateleiraVidro.jpg",
+      },
+      "10 x 115 x 250": {
+        Branco: "../images/products/suportePrateleiraVidro.jpg",
+      },
+      "10 x 145 x 300": {
+        Branco: "../images/products/suportePrateleiraVidro.jpg",
       },
     },
     image: "../images/products/suportePrateleiraVidro.jpg",
@@ -993,10 +1091,9 @@ const products = {
     description:
       "É um dispositivo de instalação permanente, geralmente de aço, projetado para sustentar, organizar ou elevar objetos com estabilidade. Eles são presos por parafusos ou adesivos fortes na parede, chão ou painéis. São comuns para botijões de gás, vasos, eletrônicos, utensílios de banheiro, fornos e TVs, mantendo-os fixos em uma posição.",
     medidas: {
-      "50 x 15 x 15": {
+      "25 x 70 x 70": {
         Branco: "../images/products/suporteMultiusoFixo.jpg",
         Preto: "../images/products/suporteMultiusoFixo.jpg",
-        Brilhante: "../images/products/suporteMultiusoFixo.jpg",
       },
     },
     image: "../images/products/suporteMultiusoFixo.jpg",
@@ -1008,10 +1105,21 @@ const products = {
     description:
       "O suporte prateleira invertido, ou mão francesa invertida, é uma peça de fixação fixada na parede com a ponta voltada para cima ou envolvendo a prateleira. Diferente da tradicional, ela cria um encaixe seguro, ideal para estéticas modernas e industriais, oferecendo um visual limpo, com a tábua apoiada de forma firme",
     medidas: {
-      "50 x 15 x 15": {
+      "25 x 15 x 150": {
         Branco: "../images/products/suportePrateleiraInvertido.jpg",
         Preto: "../images/products/suportePrateleiraInvertido.jpg",
-        Brilhante: "../images/products/suportePrateleiraInvertido.jpg",
+      },
+      "25 x 15 x 200": {
+        Branco: "../images/products/suportePrateleiraInvertido.jpg",
+        Preto: "../images/products/suportePrateleiraInvertido.jpg",
+      },
+      "25 x 15 x 250": {
+        Branco: "../images/products/suportePrateleiraInvertido.jpg",
+        Preto: "../images/products/suportePrateleiraInvertido.jpg",
+      },
+      "25 x 15 x 300": {
+        Branco: "../images/products/suportePrateleiraInvertido.jpg",
+        Preto: "../images/products/suportePrateleiraInvertido.jpg",
       },
     },
     image: "../images/products/suportePrateleiraInvertido.jpg",
@@ -1023,7 +1131,27 @@ const products = {
     description:
       "Um vedante para porta (ou veda porta) é um acessório instalado na parte inferior da porta para cobrir a fresta entre ela e o piso. Ele serve para bloquear a entrada de poeira, insetos, água, ruídos e ar frio/quente, além de ajudar a manter a temperatura interna e aumentar a eficiência do ar-condicionado.",
     medidas: {
-      "50 x 15 x 15": {
+      "18 x 50 x 700": {
+        Branco: "../images/products/vedantePorta.jpg",
+        Preto: "../images/products/vedantePorta.jpg",
+        Brilhante: "../images/products/vedantePorta.jpg",
+      },
+      "18 x 50 x 800": {
+        Branco: "../images/products/vedantePorta.jpg",
+        Preto: "../images/products/vedantePorta.jpg",
+        Brilhante: "../images/products/vedantePorta.jpg",
+      },
+      "18 x 50 x 900": {
+        Branco: "../images/products/vedantePorta.jpg",
+        Preto: "../images/products/vedantePorta.jpg",
+        Brilhante: "../images/products/vedantePorta.jpg",
+      },
+      "18 x 50 x 1000": {
+        Branco: "../images/products/vedantePorta.jpg",
+        Preto: "../images/products/vedantePorta.jpg",
+        Brilhante: "../images/products/vedantePorta.jpg",
+      },
+      "18 x 50 x 1200": {
         Branco: "../images/products/vedantePorta.jpg",
         Preto: "../images/products/vedantePorta.jpg",
         Brilhante: "../images/products/vedantePorta.jpg",
@@ -1038,10 +1166,25 @@ const products = {
     description:
       "O protetor para porta Slim é um acessório projetado para proteger a parte inferior da porta contra danos e desgaste. Ele é instalado na parte inferior da porta e oferece uma camada adicional de proteção contra impactos e atrito.",
     medidas: {
-      "50 x 15 x 15": {
+      "36 x 12 x 700": {
         Branco: "../images/products/protetorPortaSlim.jpg",
         Preto: "../images/products/protetorPortaSlim.jpg",
-        Brilhante: "../images/products/protetorPortaSlim.jpg",
+        "Marrom Cortem": "../images/products/protetorPortaSlim.jpg",
+      },
+      "36 x 12 x 800": {
+        Branco: "../images/products/protetorPortaSlim.jpg",
+        Preto: "../images/products/protetorPortaSlim.jpg",
+        "Marrom Cortem": "../images/products/protetorPortaSlim.jpg",
+      },
+      "36 x 12 x 900": {
+        Branco: "../images/products/protetorPortaSlim.jpg",
+        Preto: "../images/products/protetorPortaSlim.jpg",
+        "Marrom Cortem": "../images/products/protetorPortaSlim.jpg",
+      },
+      "36 x 12 x 1000": {
+        Branco: "../images/products/protetorPortaSlim.jpg",
+        Preto: "../images/products/protetorPortaSlim.jpg",
+        "Marrom Cortem": "../images/products/protetorPortaSlim.jpg",
       },
     },
     image: "../images/products/protetorPortaSlim.jpg",
@@ -1053,10 +1196,25 @@ const products = {
     description:
       "O protetor para porta Maxxi é um acessório projetado para proteger a parte inferior da porta contra danos e desgaste. Ele é instalado na parte inferior da porta e oferece uma camada adicional de proteção contra impactos e atrito.",
     medidas: {
-      "50 x 15 x 15": {
+      "36 x 27 x 700": {
         Branco: "../images/products/protetorPortaMaxxi.jpg",
         Preto: "../images/products/protetorPortaMaxxi.jpg",
-        Brilhante: "../images/products/protetorPortaMaxxi.jpg",
+        "Marrom Cortem": "../images/products/protetorPortaMaxxi.jpg",
+      },
+      "36 x 27 x 800": {
+        Branco: "../images/products/protetorPortaMaxxi.jpg",
+        Preto: "../images/products/protetorPortaMaxxi.jpg",
+        "Marrom Cortem": "../images/products/protetorPortaMaxxi.jpg",
+      },
+      "36 x 27 x 900": {
+        Branco: "../images/products/protetorPortaMaxxi.jpg",
+        Preto: "../images/products/protetorPortaMaxxi.jpg",
+        "Marrom Cortem": "../images/products/protetorPortaMaxxi.jpg",
+      },
+      "36 x 27 x 1000": {
+        Branco: "../images/products/protetorPortaMaxxi.jpg",
+        Preto: "../images/products/protetorPortaMaxxi.jpg",
+        "Marrom Cortem": "../images/products/protetorPortaMaxxi.jpg",
       },
     },
     image: "../images/products/protetorPortaMaxxi.jpg",
@@ -1068,10 +1226,11 @@ const products = {
     description:
       "é um dispositivo que utiliza uma barreira física, como uma vela de cerâmica ou carvão ativado, para reter impurezas sólidas (areia, barro, ferrugem) e microrganismos da água, melhorando sua qualidade para consumo sem usar energia elétrica. Diferencia-se do purificador por ter um processo de filtragem mais simples.",
     medidas: {
-      "50 x 15 x 15": {
+      "250 x 370 x 250": {
         Branco: "../images/products/ares.jpg",
         Preto: "../images/products/ares.jpg",
-        Brilhante: "../images/products/ares.jpg",
+        Azul: "../images/products/ares.jpg",
+        Vermelho: "../images/products/ares.jpg",
       },
     },
     image: "../images/products/ares.jpg",
@@ -1083,10 +1242,10 @@ const products = {
     description:
       "é um dispositivo que utiliza uma barreira física, como uma vela de cerâmica ou carvão ativado, para reter impurezas sólidas (areia, barro, ferrugem) e microrganismos da água, melhorando sua qualidade para consumo sem usar energia elétrica. Diferencia-se do purificador por ter um processo de filtragem mais simples.",
     medidas: {
-      "50 x 15 x 15": {
+      "300 x 400 x 320": {
         Branco: "../images/products/apollo.jpg",
         Preto: "../images/products/apollo.jpg",
-        Brilhante: "../images/products/apollo.jpg",
+        Azul: "../images/products/apollo.jpg",
       },
     },
     image: "../images/products/apollo.jpg",
@@ -1098,10 +1257,9 @@ const products = {
     description:
       "é um dispositivo que utiliza uma barreira física, como uma vela de cerâmica ou carvão ativado, para reter impurezas sólidas (areia, barro, ferrugem) e microrganismos da água, melhorando sua qualidade para consumo sem usar energia elétrica. Diferencia-se do purificador por ter um processo de filtragem mais simples.",
     medidas: {
-      "50 x 15 x 15": {
-        Branco: "../images/products/atenas.jpg",
-        Preto: "../images/products/atenas.jpg",
-        Brilhante: "../images/products/atenas.jpg",
+      "300 x 400 x 320": {
+        Cromado: "../images/products/atenas.jpg",
+        Rose: "../images/products/atenas.jpg",
       },
     },
     image: "../images/products/atenas.jpg",
@@ -1113,10 +1271,11 @@ const products = {
     description:
       "Um suporte para galão é um dispositivo projetado para acomodar com segurança garrafões de água (geralmente de 10L ou 20L), facilitando o acesso à água por gravidade. Feitos de materiais como plástico, metal ou madeira, eles mantém o galão estável, evitando esforço físico e respingos ao encher copos.",
     medidas: {
-      "50 x 15 x 15": {
+      "220 x 230 x 220": {
         Branco: "../images/products/suporteGalao.jpg",
         Preto: "../images/products/suporteGalao.jpg",
-        Brilhante: "../images/products/suporteGalao.jpg",
+        Azul: "../images/products/suporteGalao.jpg",
+        Vermelho: "../images/products/suporteGalao.jpg",
       },
     },
     image: "../images/products/suporteGalao.jpg",
@@ -1128,10 +1287,26 @@ const products = {
     description:
       "Um varão extensível é uma haste ajustável, geralmente de metal (aço inox ou alumínio), projetada para instalação fácil e rápida por pressão, sem a necessidade de furar paredes, pregos ou parafusos. É ideal para cortinas de box, banheiro, pia, armários ou guarda-roupas, adaptando-se a diferentes vãos",
     medidas: {
-      "50 x 15 x 15": {
+      "30 x 30 x 900": {
         Branco: "../images/products/varaoExtensivel.jpg",
-        Preto: "../images/products/varaoExtensivel.jpg",
-        Brilhante: "../images/products/varaoExtensivel.jpg",
+      },
+      "30 x 30 x 1050": {
+        Branco: "../images/products/varaoExtensivel.jpg",
+      },
+      "30 x 30 x 1200": {
+        Branco: "../images/products/varaoExtensivel.jpg",
+      },
+      "30 x 30 x 1350": {
+        Branco: "../images/products/varaoExtensivel.jpg",
+      },
+      "30 x 30 x 1500": {
+        Branco: "../images/products/varaoExtensivel.jpg",
+      },
+      "30 x 30 x 1650": {
+        Branco: "../images/products/varaoExtensivel.jpg",
+      },
+      "30 x 30 x 1800": {
+        Branco: "../images/products/varaoExtensivel.jpg",
       },
     },
     image: "../images/products/varaoExtensivel.jpg",
@@ -1143,10 +1318,8 @@ const products = {
     description:
       "Um varal articulável é um modelo de secagem de roupas fixado na parede ou muro, projetado com hastes móveis (dobráveis) que permitem recolhê-lo rente à parede quando não estiver em uso. Ele economiza espaço, sendo ideal para apartamentos, corredores e lavanderias pequenas, oferecendo alta resistência para roupas pesadas",
     medidas: {
-      "50 x 15 x 15": {
+      "130 x 100 x 400": {
         Branco: "../images/products/VaralArticulado.jpg",
-        Preto: "../images/products/VaralArticulado.jpg",
-        Brilhante: "../images/products/VaralArticulado.jpg",
       },
     },
     image: "../images/products/VaralArticulado.jpg",
@@ -1156,7 +1329,7 @@ const products = {
     name: "Kit Simples - 190",
     category: "Construção Civil",
     description:
-      "Um Kit Varão de Cortina Simples de 1,90 metros é um conjunto completo para instalação, contendo um tubo (geralmente de 19mm a 28mm de diâmetro) com essa extensão total, ideal para janelas de médio porte. Geralmente inclui suportes e ponteiras para fixação na parede ou teto, sendo indicado para cortinas leves a médias",
+      "Um Kit Varão de Cortina Simples de 1,90 metros é um conjunto completo para instalação, contendo um tubo (geralmente de 19mm a 28mm de diâmetro) com essa extensão total, ideal para janelas de médio porte. Geralmente inclui suportes e ponteiras para fixação na parede ou teto, sendo indicado para cortinas leves a médias. Temos opções com e sem emenda.",
     medidas: {
       1000: {
         Branco: "../images/products/kit_simples_190.jpg",
@@ -1264,7 +1437,7 @@ const products = {
     name: "Kit Grosso - 280",
     category: "Construção Civil",
     description:
-      "Um Kit Varão de Cortina Simples de 1,90 metros é um conjunto completo para instalação, contendo um tubo (geralmente de 19mm a 28mm de diâmetro) com essa extensão total, ideal para janelas de médio porte. Geralmente inclui suportes e ponteiras para fixação na parede ou teto, sendo indicado para cortinas leves a médias",
+      "Um Kit Varão de Cortina Simples de 1,90 metros é um conjunto completo para instalação, contendo um tubo (geralmente de 19mm a 28mm de diâmetro) com essa extensão total, ideal para janelas de médio porte. Geralmente inclui suportes e ponteiras para fixação na parede ou teto, sendo indicado para cortinas leves a médias. Temos opções com e sem emenda.",
     medidas: {
       1000: {
         Branco: "../images/products/kit_grosso280.jpg",
@@ -1374,10 +1547,19 @@ const products = {
     description:
       "Um suporte de cortina é um acessório de fixação, instalado na parede ou teto, responsável por segurar o varão ou trilho, garantindo estabilidade e o caimento correto do tecido. Eles permitem a abertura e fechamento das cortinas e podem ser simples, duplos, ajustáveis, de metal ou madeira.",
     medidas: {
-      "50 x 15 x 15": {
-        Branco: "/src/public/images/products/suporteAvulso.jpg",
-        Preto: "src/public/images/products/suporteAvulso.jpg",
-        Brilhante: "src/public/images/products/suporteAvulso.jpg",
+      "30 x 55 x 75": {
+        Branco: "../images/products/suporteAvulso.jpg",
+        Tabaco: "../images/products/suporteAvulso.jpg",
+        Mogno: "../images/products/suporteAvulso.jpg",
+        Marfim: "../images/products/suporteAvulso.jpg",
+        Cerejeira: "../images/products/suporteAvulso.jpg",
+        Titanio: "../images/products/suporteAvulso.jpg",
+        "Ouro Velho": "../images/products/suporteAvulso.jpg",
+        Rosa: "../images/products/suporteAvulso.jpg",
+        Azul: "../images/products/suporteAvulso.jpg",
+        Palha: "../images/products/suporteAvulso.jpg",
+        Preto: "../images/products/suporteAvulso.jpg",
+        Cromado: "../images/products/suporteAvulso.jpg",
       },
     },
     image: "../images/products/suporteAvulso.jpg",
@@ -1389,10 +1571,19 @@ const products = {
     description:
       "Um suporte avulso grosso é um acessório de fixação, instalado na parede ou teto, responsável por segurar o varão ou trilho, garantindo estabilidade e o caimento correto do tecido. Eles permitem a abertura e fechamento das cortinas e podem ser simples, duplos, ajustáveis, de metal ou madeira.",
     medidas: {
-      "50 x 15 x 15": {
+      "55 x 30 x 100": {
         Branco: "../images/products/suporteAvulso.jpg",
+        Tabaco: "../images/products/suporteAvulso.jpg",
+        Mogno: "../images/products/suporteAvulso.jpg",
+        Marfim: "../images/products/suporteAvulso.jpg",
+        Cerejeira: "../images/products/suporteAvulso.jpg",
+        Titanio: "../images/products/suporteAvulso.jpg",
+        "Ouro Velho": "../images/products/suporteAvulso.jpg",
+        Rosa: "../images/products/suporteAvulso.jpg",
+        Azul: "../images/products/suporteAvulso.jpg",
+        Palha: "../images/products/suporteAvulso.jpg",
         Preto: "../images/products/suporteAvulso.jpg",
-        Brilhante: "../images/products/suporteAvulso.jpg",
+        Cromado: "../images/products/suporteAvulso.jpg",
       },
     },
     image: "../images/products/suporteAvulso.jpg",
@@ -1419,10 +1610,19 @@ const products = {
     description:
       "Um suporte avulso grosso/fino é um acessório de fixação, instalado na parede ou teto, responsável por segurar o varão ou trilho, garantindo estabilidade e o caimento correto do tecido. Eles permitem a abertura e fechamento das cortinas e podem ser simples, duplos, ajustáveis, de metal ou madeira.",
     medidas: {
-      "50 x 15 x 15": {
-        Branco: "../images/products/suporteAvulso.jpg",
-        Preto: "../images/products/suporteAvulso.jpg",
-        Brilhante: "../images/products/suporteAvulso.jpg",
+      "30 x 115 x 55": {
+        Branco: "../images/products/suporteAvulsoDuplo.jpg",
+        Tabaco: "../images/products/suporteAvulsoDuplo.jpg",
+        Mogno: "../images/products/suporteAvulsoDuplo.jpg",
+        Marfim: "../images/products/suporteAvulsoDuplo.jpg",
+        Cerejeira: "../images/products/suporteAvulsoDuplo.jpg",
+        Titanio: "../images/products/suporteAvulsoDuplo.jpg",
+        "Ouro Velho": "../images/products/suporteAvulsoDuplo.jpg",
+        Rosa: "../images/products/suporteAvulsoDuplo.jpg",
+        Azul: "../images/products/suporteAvulsoDuplo.jpg",
+        Palha: "../images/products/suporteAvulsoDuplo.jpg",
+        Preto: "../images/products/suporteAvulsoDuplo.jpg",
+        Cromado: "../images/products/suporteAvulsoDuplo.jpg",
       },
     },
     image: "../images/products/suporteAvulsoDuplo.jpg",
@@ -1435,6 +1635,9 @@ const products = {
       "Uma emenda para varão é um pequeno conector, geralmente de plástico resistente ou metal, utilizado para unir dois ou mais varões de cortina, permitindo aumentar o comprimento total do suporte. Ela facilita a instalação de cortinas em janelas grandes ou paredes inteiras, garantindo que o conjunto fique firme e alinhado.",
     medidas: {
       "19 x 19 x 70": {
+        Grafite: "../images/products/emendaVarao.jpg",
+      },
+      "28 x 28 x 70": {
         Grafite: "../images/products/emendaVarao.jpg",
       },
     },
