@@ -1165,4 +1165,8 @@ hr {
   hr {
     width: 80%;
   }
+  a.item.icon {
+    margin-left: 20px;
+    margin-right: 0px;
+  }
 }

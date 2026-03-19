@@ -18,16 +18,7 @@ const products = {
     image: "../images/products/aluminum-profiles.jpg",
     cardImage: "/src/public/images/products/cards/2.jpg",
   },
-  3: {
-    category: "Perfis Industriais",
-    name: "Esquadrias em Alumínio",
-    description:
-      "Na nossa linha de esquadrias, você encontra uma ampla variedade de produtos versáteis e altamente duráveis. As esquadrias em alumínio se destacam pelo excelente custo-benefício, aliando resistência, baixa manutenção e longa vida útil. <br/><br/> Além disso, o design moderno e a estética sofisticada contribuem diretamente para a valorização do imóvel. Afinal, quem não deseja uma casa com portas e janelas bonitas, resistentes e fáceis de conservar?",
 
-    medidas: null,
-    image: "../images/products/aluminum-frames.jpg",
-    cardImage: "/src/public/images/products/cards/3.jpg",
-  },
   4: {
     category: "Construção Civil",
     name: "Alça de Apoio",
