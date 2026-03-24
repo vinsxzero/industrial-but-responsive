@@ -6,7 +6,7 @@ const products = {
       "Sendo o metal um dos materiais mais utilizados em diversas áreas e segmentos, na linha de perfil de alumínios industrial a extrusão de um material é usada para dar forma a ele visando garantir a qualidade e resistência de quando aplicada nos mais variados cenários.",
     cores: null,
     image: "../images/products/industrial-profiles.jpg",
-    cardImage: "/src/public/images/products/cards/1.jpeg",
+    cardImage: "src/public/images/products/cards/1.jpeg",
   },
   2: {
     category: "Perfis Industriais",
@@ -16,7 +16,7 @@ const products = {
 
     medidas: null,
     image: "../images/products/aluminum-profiles.jpg",
-    cardImage: "/src/public/images/products/cards/2.jpg",
+    cardImage: "src/public/images/products/cards/2.jpg",
   },
 
   4: {
