@@ -1759,7 +1759,7 @@ function generateRandomSuggestion() {
     const cardImage = link.querySelector(".card-image");
     const cardName = link.querySelector(".card-name");
 
-    link.href = `/src/public/pages/product.html?id=${randomId}`;
+    link.href = `/industrial-but-responsive/src/public/pages/product.html?id=${randomId}`;
     cardImage.src = products[randomId].cardImage;
     cardName.textContent = products[randomId].name;
   });
