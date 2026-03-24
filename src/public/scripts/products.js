@@ -49,7 +49,7 @@ const products = {
       },
     },
     image: "../images/products/alca_25cm_preta.jpg",
-    cardImage: "/src/public/images/products/cards/4.jpg",
+    cardImage: "src/public/images/products/cards/4.jpg",
   },
   5: {
     category: "Construção Civil",
@@ -66,7 +66,7 @@ const products = {
       },
     },
     image: "../images/products/braco_30cm_cromado.jpg",
-    cardImage: "/src/public/images/products/cards/5.jpg",
+    cardImage: "src/public/images/products/cards/5.jpg",
   },
   6: {
     category: "Construção Civil",
@@ -81,7 +81,7 @@ const products = {
       600: { Branco: "../images/products/alcapao_branco.jpg" },
     },
     image: "../images/products/alcapao_branco.jpg",
-    cardImage: "/src/public/images/products/cards/6.jpg",
+    cardImage: "src/public/images/products/cards/6.jpg",
   },
   7: {
     category: "Construção Civil",
@@ -96,7 +96,7 @@ const products = {
       600: { Branco: "../images/products/alcapaoInvisivel_branco.jpg" },
     },
     image: "../images/products/alcapaoInvisivel_branco.jpg",
-    cardImage: "/src/public/images/products/cards/7.jpg",
+    cardImage: "src/public/images/products/cards/7.jpg",
   },
   8: {
     category: "Construção Civil",
@@ -111,7 +111,7 @@ const products = {
       600: { Branco: "../images/products/alcapaoInvisivelCTampa_branco.jpg" },
     },
     image: "../images/products/alcapaoInvisivelCTampa_branco.jpg",
-    cardImage: "/src/public/images/products/cards/8.jpg",
+    cardImage: "src/public/images/products/cards/8.jpg",
   },
   9: {
     category: "Construção Civil",
@@ -165,7 +165,7 @@ const products = {
       },
     },
     image: "../images/products/cantoneiraL_branca.jpg",
-    cardImage: "/src/public/images/products/cards/9.jpg",
+    cardImage: "src/public/images/products/cards/9.jpg",
   },
   10: {
     category: "Construção Civil",
@@ -219,7 +219,7 @@ const products = {
       },
     },
     image: "../images/products/cantoneira_sextavada.jpg",
-    cardImage: "/src/public/images/products/cards/10.jpg",
+    cardImage: "src/public/images/products/cards/10.jpg",
   },
   11: {
     category: "Construção Civil",
@@ -240,7 +240,7 @@ const products = {
       },
     },
     image: "../images/products/cards/11.jpg",
-    cardImage: "/src/public/images/products/cards/11.jpg",
+    cardImage: "src/public/images/products/cards/11.jpg",
   },
 
   12: {
@@ -270,7 +270,7 @@ const products = {
       },
     },
     image: "../images/products/cantoReboco.jpeg",
-    cardImage: "/src/public/images/products/cantoReboco.jpeg",
+    cardImage: "src/public/images/products/cantoReboco.jpeg",
   },
   14: {
     name: "Canto Móveis / Divisórias",
@@ -303,7 +303,7 @@ const products = {
       },
     },
     image: "../images/products/cantoDivisoria.jpg",
-    cardImage: "/src/public/images/products/cantoDivisoria.jpg",
+    cardImage: "src/public/images/products/cantoDivisoria.jpg",
   },
   15: {
     name: "Friso Junção",
@@ -318,7 +318,7 @@ const products = {
       },
     },
     image: "../images/products/frisoJuncao.jpg",
-    cardImage: "/src/public/images/products/frisoJuncao.jpg",
+    cardImage: "src/public/images/products/frisoJuncao.jpg",
   },
   16: {
     name: "Friso Soleira",
@@ -333,7 +333,7 @@ const products = {
       },
     },
     image: "../images/products/frisoSoleira.jpeg",
-    cardImage: "/src/public/images/products/frisoSoleira.jpeg",
+    cardImage: "src/public/images/products/frisoSoleira.jpeg",
   },
   17: {
     name: "Perfil Led Sobrepor",
@@ -344,16 +344,16 @@ const products = {
       "17x17x2000": {
         Branco: "../images/products/ledSobrepor.jpeg",
         Preto: "../images/products/ledSobrepor.jpeg",
-        Acetinado: "/src/public/images/products/ledSobrepor.jpeg",
+        Acetinado: "src/public/images/products/ledSobrepor.jpeg",
       },
       "17x7x3000": {
         Branco: "../images/products/ledSobrepor.jpeg",
         Preto: "../images/products/ledSobrepor.jpeg",
-        Acetinado: "/src/public/images/products/ledSobrepor.jpeg",
+        Acetinado: "src/public/images/products/ledSobrepor.jpeg",
       },
     },
     image: "../images/products/ledSobrepor.jpeg",
-    cardImage: "/src/public/images/products/ledSobrepor.jpeg",
+    cardImage: "src/public/images/products/ledSobrepor.jpeg",
   },
   18: {
     name: "Perfil Led Baby Sobrepor",
@@ -373,7 +373,7 @@ const products = {
       },
     },
     image: "../images/products/ledSobrepor.jpeg",
-    cardImage: "/src/public/images/products/ledSobrepor.jpeg",
+    cardImage: "src/public/images/products/ledSobrepor.jpeg",
   },
   19: {
     name: "Perfil Led Embutir",
@@ -393,7 +393,7 @@ const products = {
       },
     },
     image: "../images/products/ledBabyEmbutir.jpg",
-    cardImage: "/src/public/images/products/ledBabyEmbutir.jpg",
+    cardImage: "src/public/images/products/ledBabyEmbutir.jpg",
   },
   20: {
     name: "Perfil Led Baby Embutir",
@@ -411,7 +411,7 @@ const products = {
       },
     },
     image: "../images/products/ledBabyEmbutir.jpg",
-    cardImage: "/src/public/images/products/ledBabyEmbutir.jpg",
+    cardImage: "src/public/images/products/ledBabyEmbutir.jpg",
   },
   21: {
     name: "Kit Corrimão Chato",
@@ -446,7 +446,7 @@ const products = {
       },
     },
     image: "../images/products/corrimaoChato.jpg",
-    cardImage: "/src/public/images/products/corrimaoChato.jpg",
+    cardImage: "src/public/images/products/corrimaoChato.jpg",
   },
   22: {
     name: "Kit Corrimão Redondo",
@@ -481,7 +481,7 @@ const products = {
       },
     },
     image: "../images/products/corrimaoRedondo.jpg",
-    cardImage: "/src/public/images/products/corrimaoRedondo.jpg",
+    cardImage: "src/public/images/products/corrimaoRedondo.jpg",
   },
   23: {
     name: "Tampa Corrimão (Chato)",
@@ -496,7 +496,7 @@ const products = {
       },
     },
     image: "../images/products/acabamentoChato.jpeg",
-    cardImage: "/src/public/images/products/acabamentoChato.jpeg",
+    cardImage: "src/public/images/products/acabamentoChato.jpeg",
   },
   24: {
     name: "Tampa Corrimão (Redondo)",
@@ -510,7 +510,7 @@ const products = {
       },
     },
     image: "../images/products/acabamentoRedondo.jpg",
-    cardImage: "/src/public/images/products/acabamentoRedondo.jpg",
+    cardImage: "src/public/images/products/acabamentoRedondo.jpg",
   },
   25: {
     name: "Tampa Curva (Chato)",
@@ -525,7 +525,7 @@ const products = {
       },
     },
     image: "../images/products/acabamentoChatoCurvo.jpg",
-    cardImage: "/src/public/images/products/acabamentoChatoCurvo.jpg",
+    cardImage: "src/public/images/products/acabamentoChatoCurvo.jpg",
   },
   26: {
     name: "Tampa Curva (Redondo)",
@@ -539,7 +539,7 @@ const products = {
       },
     },
     image: "../images/products/acabamentoRedondoCurva.jpg",
-    cardImage: "/src/public/images/products/acabamentoRedondoCurva.jpg",
+    cardImage: "src/public/images/products/acabamentoRedondoCurva.jpg",
   },
   27: {
     name: "Suporte para Corrimão",
@@ -554,7 +554,7 @@ const products = {
       },
     },
     image: "../images/products/suporteCorrimao.jpg",
-    cardImage: "/src/public/images/products/suporteCorrimao.jpg",
+    cardImage: "src/public/images/products/suporteCorrimao.jpg",
   },
   28: {
     name: "Friso Degrau em 'L'",
@@ -579,7 +579,7 @@ const products = {
       },
     },
     image: "../images/products/pisoDegrauL.jpeg",
-    cardImage: "/src/public/images/products/pisoDegrauL.jpeg",
+    cardImage: "src/public/images/products/pisoDegrauL.jpeg",
   },
   29: {
     name: "Friso Degrau (Chato)",
@@ -594,7 +594,7 @@ const products = {
       },
     },
     image: "../images/products/pisoDegrau.jpeg",
-    cardImage: "/src/public/images/products/pisoDegrau.jpeg",
+    cardImage: "src/public/images/products/pisoDegrau.jpeg",
   },
   30: {
     name: "Perfil Tela Fácil C/ Borracha",
@@ -623,7 +623,7 @@ const products = {
       },
     },
     image: "../images/products/AcessoriosTelaFacil.jpg",
-    cardImage: "/src/public/images/products/AcessoriosTelaFacil.jpg",
+    cardImage: "src/public/images/products/AcessoriosTelaFacil.jpg",
   },
   32: {
     name: "Perfil 'U' P/ Vidro",
@@ -642,7 +642,7 @@ const products = {
       },
     },
     image: "../images/products/perfilUVidro.jpeg",
-    cardImage: "/src/public/images/products/perfilUVidro.jpeg",
+    cardImage: "src/public/images/products/perfilUVidro.jpeg",
   },
   33: {
     name: "Régua Bitubular",
@@ -661,7 +661,7 @@ const products = {
       },
     },
     image: "../images/products/reguaBitubular.jpg",
-    cardImage: "/src/public/images/products/reguaBitubular.jpg",
+    cardImage: "src/public/images/products/reguaBitubular.jpg",
   },
   34: {
     name: "Régua Reforçada",
@@ -680,7 +680,7 @@ const products = {
       },
     },
     image: "../images/products/reguaReforcada.jpg",
-    cardImage: "/src/public/images/products/reguaReforcada.jpg",
+    cardImage: "src/public/images/products/reguaReforcada.jpg",
   },
   35: {
     name: "Régua Extra Larga",
@@ -699,7 +699,7 @@ const products = {
       },
     },
     image: "../images/products/reguaExtraLarga.jpg",
-    cardImage: "/src/public/images/products/reguaExtraLarga.jpg",
+    cardImage: "src/public/images/products/reguaExtraLarga.jpg",
   },
   36: {
     name: "Régua Super Reforçada",
@@ -718,7 +718,7 @@ const products = {
       },
     },
     image: "../images/products/reguaSuperReforcada.jpg",
-    cardImage: "/src/public/images/products/reguaSuperReforcada.jpg",
+    cardImage: "src/public/images/products/reguaSuperReforcada.jpg",
   },
   37: {
     name: "Régua Gesseiro",
@@ -734,7 +734,7 @@ const products = {
       },
     },
     image: "../images/products/reguaGesseiro.jpg",
-    cardImage: "/src/public/images/products/reguaGesseiro.jpg",
+    cardImage: "src/public/images/products/reguaGesseiro.jpg",
   },
   38: {
     name: "Régua Gesseiro L 2'",
@@ -750,7 +750,7 @@ const products = {
       },
     },
     image: "../images/products/reguaLGesseiro.jpg",
-    cardImage: "/src/public/images/products/reguaLGesseiro.jpg",
+    cardImage: "src/public/images/products/reguaLGesseiro.jpg",
   },
   39: {
     name: "Suporte Antena Simples",
@@ -766,7 +766,7 @@ const products = {
       },
     },
     image: "../images/products/suporteAntenaSimples.jpg",
-    cardImage: "/src/public/images/products/suporteAntenaSimples.jpg",
+    cardImage: "src/public/images/products/suporteAntenaSimples.jpg",
   },
   40: {
     name: "Suporte Antena Duplo",
@@ -781,7 +781,7 @@ const products = {
       },
     },
     image: "../images/products/suporteAntenaDuplo.jpg",
-    cardImage: "/src/public/images/products/suporteAntenaDuplo.jpg",
+    cardImage: "src/public/images/products/suporteAntenaDuplo.jpg",
   },
   41: {
     name: "Suporte Antena Cavalo Simples",
@@ -797,7 +797,7 @@ const products = {
       },
     },
     image: "../images/products/suporteAntenaCavaloSimples.jpg",
-    cardImage: "/src/public/images/products/suporteAntenaCavaloSimples.jpg",
+    cardImage: "src/public/images/products/suporteAntenaCavaloSimples.jpg",
   },
   42: {
     name: "Suporte Antena Cavalo Duplo",
@@ -813,7 +813,7 @@ const products = {
       },
     },
     image: "../images/products/suporteAntenaCavaloDuplo.jpg",
-    cardImage: "/src/public/images/products/suporteAntenaCavaloDuplo.jpg",
+    cardImage: "src/public/images/products/suporteAntenaCavaloDuplo.jpg",
   },
   43: {
     name: "Suporte Antena Tripé",
@@ -826,7 +826,7 @@ const products = {
       },
     },
     image: "../images/products/suporteAntenaTripe.jpg",
-    cardImage: "/src/public/images/products/suporteAntenaTripe.jpg",
+    cardImage: "src/public/images/products/suporteAntenaTripe.jpg",
   },
   44: {
     name: "Suporte Antena Emenda",
@@ -839,7 +839,7 @@ const products = {
       },
     },
     image: "../images/products/suporteAntenaEmenda.jpg",
-    cardImage: "/src/public/images/products/suporteAntenaEmenda.jpg",
+    cardImage: "src/public/images/products/suporteAntenaEmenda.jpg",
   },
   45: {
     name: "Tubo P/ Antena",
@@ -852,7 +852,7 @@ const products = {
       },
     },
     image: "../images/products/tuboAntena.jpg",
-    cardImage: "/src/public/images/products/tuboAntena.jpg",
+    cardImage: "src/public/images/products/tuboAntena.jpg",
   },
   46: {
     name: "Mão Francesa",
@@ -894,7 +894,7 @@ const products = {
       },
     },
     image: "../images/products/maoFrancesa.jpg",
-    cardImage: "/src/public/images/products/maoFrancesa.jpg",
+    cardImage: "src/public/images/products/maoFrancesa.jpg",
   },
   47: {
     name: "Mão Francesa Retrátil",
@@ -913,7 +913,7 @@ const products = {
       },
     },
     image: "../images/products/prateleiraRetratil.jpg",
-    cardImage: "/src/public/images/products/prateleiraRetratil.jpg",
+    cardImage: "src/public/images/products/prateleiraRetratil.jpg",
   },
   48: {
     name: "Suporte P/ Pia (Parafusar)",
@@ -932,7 +932,7 @@ const products = {
       },
     },
     image: "../images/products/suportePiaParafusar.jpg",
-    cardImage: "/src/public/images/products/suportePiaParafusar.jpg",
+    cardImage: "src/public/images/products/suportePiaParafusar.jpg",
   },
   49: {
     name: "Suporte P/ Pia (Chumbar)",
@@ -951,7 +951,7 @@ const products = {
       },
     },
     image: "../images/products/suportePiaChumbar.jpg",
-    cardImage: "/src/public/images/products/suportePiaChumbar.jpg",
+    cardImage: "src/public/images/products/suportePiaChumbar.jpg",
   },
   50: {
     name: "Suporte Prateleira Extra",
@@ -985,7 +985,7 @@ const products = {
       },
     },
     image: "../images/products/suportePrateleiraForte.jpg",
-    cardImage: "/src/public/images/products/suportePrateleiraForte.jpg",
+    cardImage: "src/public/images/products/suportePrateleiraForte.jpg",
   },
   51: {
     name: "Suporte Prateleira Reforçada",
@@ -1023,7 +1023,7 @@ const products = {
       },
     },
     image: "../images/products/suportePrateleiraReforcada.jpg",
-    cardImage: "/src/public/images/products/suportePrateleiraReforcada.jpg",
+    cardImage: "src/public/images/products/suportePrateleiraReforcada.jpg",
   },
   52: {
     name: "Suporte Prateleira Forte",
@@ -1049,7 +1049,7 @@ const products = {
       },
     },
     image: "../images/products/suportePrateleiraForte.jpg",
-    cardImage: "/src/public/images/products/suportePrateleiraForte.jpg",
+    cardImage: "src/public/images/products/suportePrateleiraForte.jpg",
   },
   53: {
     name: "Suporte Prateleira Vidro",
@@ -1074,7 +1074,7 @@ const products = {
       },
     },
     image: "../images/products/suportePrateleiraVidro.jpg",
-    cardImage: "/src/public/images/products/suportePrateleiraVidro.jpg",
+    cardImage: "src/public/images/products/suportePrateleiraVidro.jpg",
   },
   54: {
     name: "Suporte Multiuso Fixo",
@@ -1088,7 +1088,7 @@ const products = {
       },
     },
     image: "../images/products/suporteMultiusoFixo.jpg",
-    cardImage: "/src/public/images/products/suporteMultiusoFixo.jpg",
+    cardImage: "src/public/images/products/suporteMultiusoFixo.jpg",
   },
   55: {
     name: "Suporte Prateleira Invertido",
@@ -1114,7 +1114,7 @@ const products = {
       },
     },
     image: "../images/products/suportePrateleiraInvertido.jpg",
-    cardImage: "/src/public/images/products/suportePrateleiraInvertido.jpg",
+    cardImage: "src/public/images/products/suportePrateleiraInvertido.jpg",
   },
   56: {
     name: "Vedante Para Porta",
@@ -1149,7 +1149,7 @@ const products = {
       },
     },
     image: "../images/products/vedantePorta.jpg",
-    cardImage: "/src/public/images/products/vedantePorta.jpg",
+    cardImage: "src/public/images/products/vedantePorta.jpg",
   },
   57: {
     name: "Protetor para Porta Slim",
@@ -1179,7 +1179,7 @@ const products = {
       },
     },
     image: "../images/products/protetorPortaSlim.jpg",
-    cardImage: "/src/public/images/products/protetorPortaSlim.jpg",
+    cardImage: "src/public/images/products/protetorPortaSlim.jpg",
   },
   58: {
     name: "Protetor para Porta Maxxi",
@@ -1209,7 +1209,7 @@ const products = {
       },
     },
     image: "../images/products/protetorPortaMaxxi.jpg",
-    cardImage: "/src/public/images/products/protetorPortaMaxxi.jpg",
+    cardImage: "src/public/images/products/protetorPortaMaxxi.jpg",
   },
   59: {
     name: "Filtro Linha Ares",
@@ -1240,7 +1240,7 @@ const products = {
       },
     },
     image: "../images/products/apollo.jpg",
-    cardImage: "/src/public/images/products/apollo.jpg",
+    cardImage: "src/public/images/products/apollo.jpg",
   },
   61: {
     name: "Filtro Linha Atenas",
@@ -1254,7 +1254,7 @@ const products = {
       },
     },
     image: "../images/products/atenas.jpg",
-    cardImage: "/src/public/images/products/atenas.jpg",
+    cardImage: "src/public/images/products/atenas.jpg",
   },
   62: {
     name: "Suporte para Galão",
@@ -1270,7 +1270,7 @@ const products = {
       },
     },
     image: "../images/products/suporteGalao.jpg",
-    cardImage: "/src/public/images/products/suporteGalao.jpg",
+    cardImage: "src/public/images/products/suporteGalao.jpg",
   },
   63: {
     name: "Varão Extensível",
@@ -1301,7 +1301,7 @@ const products = {
       },
     },
     image: "../images/products/varaoExtensivel.jpg",
-    cardImage: "/src/public/images/products/varaoExtensivel.jpg",
+    cardImage: "src/public/images/products/varaoExtensivel.jpg",
   },
   64: {
     name: "Varal Articulado",
@@ -1314,7 +1314,7 @@ const products = {
       },
     },
     image: "../images/products/VaralArticulado.jpg",
-    cardImage: "/src/public/images/products/VaralArticulado.jpg",
+    cardImage: "src/public/images/products/VaralArticulado.jpg",
   },
   65: {
     name: "Kit Simples - 190",
@@ -1422,7 +1422,7 @@ const products = {
       },
     },
     image: "../images/products/kit_simples_190.jpg",
-    cardImage: "/src/public/images/products/cards/65.jpg",
+    cardImage: "src/public/images/products/cards/65.jpg",
   },
   66: {
     name: "Kit Grosso - 280",
@@ -1530,7 +1530,7 @@ const products = {
       },
     },
     image: "../images/products/kit_grosso280.jpg",
-    cardImage: "/src/public/images/products/cards/66.jpg",
+    cardImage: "src/public/images/products/cards/66.jpg",
   },
   67: {
     name: "Suporte Avulso Simples",
@@ -1554,7 +1554,7 @@ const products = {
       },
     },
     image: "../images/products/suporteAvulso.jpg",
-    cardImage: "/src/public/images/products/suporteAvulso.jpg",
+    cardImage: "src/public/images/products/suporteAvulso.jpg",
   },
   68: {
     name: "Suporte Avulso Grosso",
@@ -1578,7 +1578,7 @@ const products = {
       },
     },
     image: "../images/products/suporteAvulso.jpg",
-    cardImage: "/src/public/images/products/suporteAvulso.jpg",
+    cardImage: "src/public/images/products/suporteAvulso.jpg",
   },
   69: {
     name: "Suporte Avulso Duplo",
@@ -1617,7 +1617,7 @@ const products = {
       },
     },
     image: "../images/products/suporteAvulsoDuplo.jpg",
-    cardImage: "/src/public/images/products/suporteAvulsoDuplo.jpg",
+    cardImage: "src/public/images/products/suporteAvulsoDuplo.jpg",
   },
   71: {
     name: "Emenda Varão",
@@ -1633,7 +1633,7 @@ const products = {
       },
     },
     image: "../images/products/emendaVarao.jpg",
-    cardImage: "/src/public/images/products/cards/71.jpg",
+    cardImage: "src/public/images/products/cards/71.jpg",
   },
 };
 
