@@ -101,7 +101,8 @@ const products = {
       600: { Branco: "../images/products/alcapaoInvisivel_branco.jpg" },
     },
     image: "../images/products/alcapaoInvisivel_branco.jpg",
-    cardImage: "src/public/images/products/cards/7.jpg",
+    cardImage:
+      "/industrial-but-responsive/src/public/images/products/cards/7.jpg",
   },
   8: {
     category: "Construção Civil",
@@ -329,7 +330,8 @@ const products = {
       },
     },
     image: "../images/products/frisoJuncao.jpg",
-    cardImage: "src/public/images/products/frisoJuncao.jpg",
+    cardImage:
+      "/industrial-but-responsive/src/public/images/products/frisoJuncao.jpg",
   },
   16: {
     name: "Friso Soleira",
@@ -975,7 +977,8 @@ const products = {
       },
     },
     image: "../images/products/suportePiaParafusar.jpg",
-    cardImage: "src/public/images/products/suportePiaParafusar.jpg",
+    cardImage:
+      "/industrial-but-responsive/src/public/images/products/suportePiaParafusar.jpg",
   },
   49: {
     name: "Suporte P/ Pia (Chumbar)",
@@ -1367,12 +1370,12 @@ const products = {
       "Um varal articulável é um modelo de secagem de roupas fixado na parede ou muro, projetado com hastes móveis (dobráveis) que permitem recolhê-lo rente à parede quando não estiver em uso. Ele economiza espaço, sendo ideal para apartamentos, corredores e lavanderias pequenas, oferecendo alta resistência para roupas pesadas",
     medidas: {
       "130 x 100 x 400": {
-        Branco: "../images/products/VaralArticulado.jpg",
+        Branco: "../images/products/varalArticulado.jpg",
       },
     },
-    image: "../images/products/VaralArticulado.jpg",
+    image: "../images/products/varalArticulado.jpg",
     cardImage:
-      "/industrial-but-responsive/src/public/images/products/VaralArticulado.jpg",
+      "/industrial-but-responsive/src/public/images/products/varalArticulado.jpg",
   },
   65: {
     name: "Kit Simples - 190",

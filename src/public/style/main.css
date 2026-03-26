@@ -970,6 +970,10 @@ hr {
 }
 
 @media (min-width: 320px) and (max-width: 749px) {
+  html {
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
   body {
     overflow-x: hidden;
   }
