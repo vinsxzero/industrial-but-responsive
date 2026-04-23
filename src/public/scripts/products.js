@@ -173,7 +173,7 @@ const products = {
     },
     image: "../images/products/cantoneiraL_branca.jpg",
     cardImage:
-      "/industrial-but-responsive/src/public/images/products/cards/9.jpg",
+      "/industrial-but-responsive/src/public/images/products/cards/8.jpg",
   },
   10: {
     category: "Construção Civil",
@@ -253,23 +253,6 @@ const products = {
       "/industrial-but-responsive/src/public/images/products/cards/11.jpg",
   },
 
-  12: {
-    category: "Construção Civil",
-    name: "Cantoneira L ",
-    description: "",
-    medidas: {
-      "1/2'": {
-        Polido: "../images/products/cantoneiraL_polida.jpg",
-        Branco: "../images/products/cantoneiraL_branca.jpg",
-      },
-      "2'": {
-        Polido: "../images/products/cantoneiraL_polida.jpg",
-        Branco: "../images/products/cantoneiraL_branca.jpg",
-      },
-    },
-    image: "../images/products/cantoneiraL_branca.jpg",
-    cardImage: "/src/public/images/products/cards/9.jpg",
-  },
   13: {
     name: "Canto Reboco/Massa",
     category: "Construção Civil",
