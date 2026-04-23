@@ -173,7 +173,7 @@ const products = {
     },
     image: "../images/products/cantoneiraL_branca.jpg",
     cardImage:
-      "/industrial-but-responsive/src/public/images/products/cards/9.jpg",
+      "/industrial-but-responsive/src/public/images/products/cantoneiraL_branca.jpg",
   },
   10: {
     category: "Construção Civil",
