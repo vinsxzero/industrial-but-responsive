@@ -456,7 +456,8 @@ form label {
   justify-content: center;
   align-items: center;
   border: 5px solid #0a457a;
-  background-color: aqua;
+
+  background-size: cover;
   font-size: 3rem;
   text-align: center;
   transition:
@@ -501,6 +502,19 @@ hr {
   border: none;
   cursor: pointer;
   font-size: 18px;
+}
+#basicom {
+  background: url("/industrial-but-responsive/src/public/images/main/logo_basicom.jpg")
+    no-repeat center center / contain;
+}
+#ferragensSp {
+  background: url("/industrial-but-responsive/src/public/images/main/logo_ferragenssp.png")
+    no-repeat center center / contain;
+}
+
+#itapeti {
+  background: url("/industrial-but-responsive/src/public/images/main/logo_itapeti.jpg.jpeg")
+    no-repeat center center / contain;
 }
 
 /*CATALOGO*/
