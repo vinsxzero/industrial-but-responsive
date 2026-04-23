@@ -173,7 +173,7 @@ const products = {
     },
     image: "../images/products/cantoneiraL_branca.jpg",
     cardImage:
-      "/industrial-but-responsive/src/public/images/products/cards/9.jpg",
+      "//industrial-but-responsive/src/public/images/products/cards/9.jpg",
   },
   10: {
     category: "Construção Civil",
@@ -1134,13 +1134,13 @@ const products = {
       "É um dispositivo de instalação permanente, geralmente de aço, projetado para sustentar, organizar ou elevar objetos com estabilidade. Eles são presos por parafusos ou adesivos fortes na parede, chão ou painéis. São comuns para botijões de gás, vasos, eletrônicos, utensílios de banheiro, fornos e TVs, mantendo-os fixos em uma posição.",
     medidas: {
       "25 x 70 x 70": {
-        Branco: "../images/products/suporteMultiusoFixo.jpg",
-        Preto: "../images/products/suporteMultiusoFixo.jpg",
+        Branco: "../images/products/SuporteMultiusoFixo.jpg",
+        Preto: "../images/products/SuporteMultiusoFixo.jpg",
       },
     },
-    image: "../images/products/suporteMultiusoFixo.jpg",
+    image: "../images/products/SuporteMultiusoFixo.jpg",
     cardImage:
-      "/industrial-but-responsive/src/public/images/products/suporteMultiusoFixo.jpg",
+      "/industrial-but-responsive/src/public/images/products/SuporteMultiusoFixo.jpg",
   },
   55: {
     name: "Suporte Prateleira Invertido",
