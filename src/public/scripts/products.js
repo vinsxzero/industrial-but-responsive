@@ -341,12 +341,12 @@ const products = {
       "17x17x2000": {
         Branco: "../images/products/ledSobrepor.jpeg",
         Preto: "../images/products/ledSobrepor.jpeg",
-        Acetinado: "src/public/images/products/ledSobrepor.jpeg",
+        Acetinado: "../images/products/ledSobrepor.jpeg",
       },
       "17x7x3000": {
         Branco: "../images/products/ledSobrepor.jpeg",
         Preto: "../images/products/ledSobrepor.jpeg",
-        Acetinado: "src/public/images/products/ledSobrepor.jpeg",
+        Acetinado: "../images/products/ledSobrepor.jpeg",
       },
     },
     image: "../images/products/ledSobrepor.jpeg",
