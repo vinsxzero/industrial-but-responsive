@@ -7,7 +7,7 @@ const products = {
     cores: null,
     image: "../images/products/industrial-profiles.jpg",
     cardImage:
-      "/industrial-but-responsive/src/public/images/products/cards/1.jpeg",
+      "/industrial-but-responsive/src/public/images/products/cards/1.jpg",
   },
   2: {
     category: "Perfis Industriais",
@@ -263,9 +263,9 @@ const products = {
         Brilhante: "../images/products/cantoReboco.jpg",
       },
     },
-    image: "../images/products/cantoReboco.jpeg",
+    image: "../images/products/cantoReboco.jpg",
     cardImage:
-      "/industrial-but-responsive/src/public/images/products/cantoReboco.jpeg",
+      "/industrial-but-responsive/src/public/images/products/cantoReboco.jpg",
   },
   14: {
     name: "Canto Móveis / Divisórias",
@@ -324,14 +324,14 @@ const products = {
       "O friso de soleira é uma pequena ranhura ou baixo-relevo feito na parte inferior de pedras de acabamento (como mármore ou granito) sob portas, servindo para proteger a base, destacar a divisão entre cômodos, esconder desníveis e impedir a infiltração de água, garantindo maior durabilidade e acabamento estético.",
     medidas: {
       "30x15x1000": {
-        Branco: "../images/products/frisoSoleira.jpeg",
-        Preto: "../images/products/frisoSoleira.jpeg",
-        Acetinado: "../images/products/frisoSoleira.jpeg",
+        Branco: "../images/products/frisoJuncao_branco.jpg",
+        Preto: "../images/products/frisoJuncao_preto.jpg",
+        Acetinado: "../images/products/frisoJuncao_acetinado.jpg",
       },
     },
-    image: "../images/products/frisoSoleira.jpeg",
+    image: "../images/products/frisoSoleira.jpg",
     cardImage:
-      "/industrial-but-responsive/src/public/images/products/frisoSoleira.jpeg",
+      "/industrial-but-responsive/src/public/images/products/frisoSoleira.jpg",
   },
   17: {
     name: "Perfil Led Sobrepor",
@@ -340,19 +340,19 @@ const products = {
       "Estrutura de alumínio com difusor acrílico, projetada para acomodar fitas LED e ser fixada diretamente na superfície (teto, parede ou móveis), sem necessidade de cortes ou nichos",
     medidas: {
       "17x17x2000": {
-        Branco: "../images/products/ledSobrepor_branco.jpeg",
-        Preto: "../images/products/ledSobrepor_preto.jpeg",
-        Acetinado: "../images/products/ledSobrepor_acetinado.jpeg",
+        Branco: "../images/products/ledSobrepor_branco.jpg",
+        Preto: "../images/products/ledSobrepor_preto.jpg",
+        Acetinado: "../images/products/ledSobrepor_acetinado.jpg",
       },
       "17x7x3000": {
-        Branco: "../images/products/ledSobrepor_branco.jpeg",
-        Preto: "../images/products/ledSobrepor_preto.jpeg",
-        Acetinado: "../images/products/ledSobrepor_acetinado.jpeg",
+        Branco: "../images/products/ledSobrepor_branco.jpg",
+        Preto: "../images/products/ledSobrepor_preto.jpg",
+        Acetinado: "../images/products/ledSobrepor_acetinado.jpg",
       },
     },
-    image: "../images/products/ledSobrepor.jpeg",
+    image: "../images/products/ledSobrepor.jpg",
     cardImage:
-      "/industrial-but-responsive/src/public/images/products/ledSobrepor.jpeg",
+      "/industrial-but-responsive/src/public/images/products/ledSobrepor.jpg",
   },
   18: {
     name: "Perfil Led Baby Sobrepor",
@@ -361,19 +361,19 @@ const products = {
       "O perfil LED Baby de sobrepor é uma estrutura linear de alumínio, extremamente fina e compacta (geralmente com cerca de 8mm a 10mm de largura), projetada para ser fixada diretamente sobre superfícies como móveis, marcenaria, paredes ou tetos, sem necessidade de rebaixamento. Ele acomoda fitas de LED, oferecendo iluminação linear difusa, clean e moderna.",
     medidas: {
       "11x11x2000": {
-        Branco: "../images/products/ledSobrepor.jpeg",
-        Preto: "../images/products/ledSobrepor.jpeg",
-        Acetinado: "../images/products/ledSobrepor.jpeg",
+        Branco: "../images/products/ledSobrepor.jpg",
+        Preto: "../images/products/ledSobrepor.jpg",
+        Acetinado: "../images/products/ledSobrepor.jpg",
       },
       "11x11x3000": {
-        Branco: "../images/products/ledSobrepor.jpeg",
-        Preto: "../images/products/ledSobrepor.jpeg",
-        Acetinado: "../images/products/ledSobrepor.jpeg",
+        Branco: "../images/products/ledSobrepor.jpg",
+        Preto: "../images/products/ledSobrepor.jpg",
+        Acetinado: "../images/products/ledSobrepor.jpg",
       },
     },
-    image: "../images/products/ledSobrepor.jpeg",
+    image: "../images/products/ledSobrepor.jpg",
     cardImage:
-      "/industrial-but-responsive/src/public/images/products/ledSobrepor.jpeg",
+      "/industrial-but-responsive/src/public/images/products/ledSobrepor.jpg",
   },
   19: {
     name: "Perfil Led Embutir",
@@ -494,14 +494,14 @@ const products = {
       "Tampa para corrimão chato, ideal para acabamento e proteção das extremidades.",
     medidas: {
       "50 x 15 x 15": {
-        Branco: "../images/products/acabamentoChato.jpeg",
-        Preto: "../images/products/acabamentoChato.jpeg",
-        Brilhante: "../images/products/acabamentoChato.jpeg",
+        Branco: "../images/products/acabamentoChato.jpg",
+        Preto: "../images/products/acabamentoChato.jpg",
+        Brilhante: "../images/products/acabamentoChato.jpg",
       },
     },
-    image: "../images/products/acabamentoChato.jpeg",
+    image: "../images/products/acabamentoChato.jpg",
     cardImage:
-      "/industrial-but-responsive/src/public/images/products/acabamentoChato.jpeg",
+      "/industrial-but-responsive/src/public/images/products/acabamentoChato.jpg",
   },
   24: {
     name: "Tampa Corrimão (Redondo)",
@@ -572,24 +572,24 @@ const products = {
       "Friso para degrau em forma de 'L', ideal para acabamento e proteção das extremidades.",
     medidas: {
       "23 x 10 x 3000": {
-        Branco: "../images/products/pisoDegrauL.jpeg",
-        Preto: "../images/products/pisoDegrauL.jpeg",
-        Polido: "../images/products/pisoDegrauL.jpeg",
+        Branco: "../images/products/pisoDegrauL.jpg",
+        Preto: "../images/products/pisoDegrauL.jpg",
+        Polido: "../images/products/pisoDegrauL.jpg",
       },
       "30 x 15 x 3000": {
-        Branco: "../images/products/pisoDegrauL.jpeg",
-        Preto: "../images/products/pisoDegrauL.jpeg",
-        Polido: "../images/products/pisoDegrauL.jpeg",
+        Branco: "../images/products/pisoDegrauL.jpg",
+        Preto: "../images/products/pisoDegrauL.jpg",
+        Polido: "../images/products/pisoDegrauL.jpg",
       },
       "50 x 25 x 3000": {
-        Branco: "../images/products/pisoDegrauL.jpeg",
-        Preto: "../images/products/pisoDegrauL.jpeg",
-        Polido: "../images/products/pisoDegrauL.jpeg",
+        Branco: "../images/products/pisoDegrauL.jpg",
+        Preto: "../images/products/pisoDegrauL.jpg",
+        Polido: "../images/products/pisoDegrauL.jpg",
       },
     },
-    image: "../images/products/pisoDegrauL.jpeg",
+    image: "../images/products/pisoDegrauL.jpg",
     cardImage:
-      "/industrial-but-responsive/src/public/images/products/pisoDegrauL.jpeg",
+      "/industrial-but-responsive/src/public/images/products/pisoDegrauL.jpg",
   },
   29: {
     name: "Friso Degrau (Chato)",
@@ -598,14 +598,14 @@ const products = {
       "Friso para degrau chato, ideal para acabamento e proteção das extremidades.",
     medidas: {
       "30 x 0.210 x 3000": {
-        Branco: "../images/products/pisoDegrau.jpeg",
-        Preto: "../images/products/pisoDegrau.jpeg",
-        Polido: "../images/products/pisoDegrau.jpeg",
+        Branco: "../images/products/pisoDegrau.jpg",
+        Preto: "../images/products/pisoDegrau.jpg",
+        Polido: "../images/products/pisoDegrau.jpg",
       },
     },
-    image: "../images/products/pisoDegrau.jpeg",
+    image: "../images/products/pisoDegrau.jpg",
     cardImage:
-      "/industrial-but-responsive/src/public/images/products/pisoDegrau.jpeg",
+      "/industrial-but-responsive/src/public/images/products/pisoDegrau.jpg",
   },
   30: {
     name: "Perfil Tela Fácil C/ Borracha",
@@ -645,18 +645,18 @@ const products = {
       "Perfil em formato de 'U' projetado para acomodar e fixar vidros, proporcionando suporte estrutural e acabamento estético em aplicações como portas, janelas e divisórias de vidro.",
     medidas: {
       "8.5 x 10 x 3000": {
-        Polido: "../images/products/perfilUVidro.jpeg",
+        Polido: "../images/products/perfilUVidro.jpg",
       },
       "10 x 19 x 3000": {
-        Polido: "../images/products/perfilUVidro.jpeg",
+        Polido: "../images/products/perfilUVidro.jpg",
       },
       "13 x 20 x 3000": {
-        Polido: "../images/products/perfilUVidro.jpeg",
+        Polido: "../images/products/perfilUVidro.jpg",
       },
     },
-    image: "../images/products/perfilUVidro.jpeg",
+    image: "../images/products/perfilUVidro.jpg",
     cardImage:
-      "/industrial-but-responsive/src/public/images/products/perfilUVidro.jpeg",
+      "/industrial-but-responsive/src/public/images/products/perfilUVidro.jpg",
   },
   33: {
     name: "Régua Bitubular",
