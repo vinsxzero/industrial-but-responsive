@@ -531,7 +531,7 @@ hr {
   padding: 50px;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 .card-link {
@@ -591,8 +591,8 @@ hr {
 .catalogue .card {
   display: flex;
   flex-direction: column;
-  height: 7em;
-  width: 7em;
+  height: 6em;
+  width: 6em;
   aspect-ratio: 1 / 1;
   cursor: pointer;
   margin-bottom: 20px;
