@@ -249,7 +249,7 @@ const products = {
         Champanhe: "../images/products/cantoneiraRedonda_champanhe.jpg",
       },
     },
-    image: "../images/products/cards/11.jpg",
+    image: "../images/products/cantoneiraRedonda_polido.jpg",
     cardImage:
       "/industrial-but-responsive/src/public/images/products/cards/11.jpg",
   },
