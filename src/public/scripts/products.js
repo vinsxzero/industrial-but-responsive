@@ -273,28 +273,28 @@ const products = {
     description: "",
     medidas: {
       "3/4'": {
-        Bicromado: "../images/products/cantoDivisoria.jpg",
-        Zincado: "../images/products/cantoDivisoria.jpg",
+        Bicromado: "../images/products/cantoMoveis_bicrom.jpg",
+        Zincado: "../images/products/cantoMoveis_zincado.jpg",
       },
       "1'": {
-        Bicromado: "../images/products/cantoDivisoria.jpg",
-        Zincado: "../images/products/cantoDivisoria.jpg",
+        Bicromado: "../images/products/cantoMoveis_bicrom.jpg",
+        Zincado: "../images/products/cantoMoveis_zincado.jpg",
       },
       "1 1/2'": {
-        Bicromado: "../images/products/cantoDivisoria.jpg",
-        Zincado: "../images/products/cantoDivisoria.jpg",
+        Bicromado: "../images/products/cantoMoveis_bicrom.jpg",
+        Zincado: "../images/products/cantoMoveis_zincado.jpg",
       },
       "2'": {
-        Bicromado: "../images/products/cantoDivisoria.jpg",
-        Zincado: "../images/products/cantoDivisoria.jpg",
+        Bicromado: "../images/products/cantoMoveis_bicrom.jpg",
+        Zincado: "../images/products/cantoMoveis_zincado.jpg",
       },
       "3'": {
-        Bicromado: "../images/products/cantoDivisoria.jpg",
-        Zincado: "../images/products/cantoDivisoria.jpg",
+        Bicromado: "../images/products/cantoMoveis_bicrom.jpg",
+        Zincado: "../images/products/cantoMoveis_zincado.jpg",
       },
       "4'": {
-        Bicromado: "../images/products/cantoDivisoria.jpg",
-        Zincado: "../images/products/cantoDivisoria.jpg",
+        Bicromado: "../images/products/cantoMoveis_bicrom.jpg",
+        Zincado: "../images/products/cantoMoveis_zincado.jpg",
       },
     },
     image: "../images/products/cantoDivisoria.jpg",
@@ -308,9 +308,9 @@ const products = {
       "Um friso de junção é um corte linear, em baixo-relevo ou uma peça de arremate, utilizado para conectar dois painéis, paredes ou pisos, funcionando tanto como um elemento decorativo (ritmo visual) quanto funcional (junta de dilatação/movimentação). Ele previne trincas em fachadas ao direcionar a movimentação dos materiais e oculta emendas entre diferentes superfícies",
     medidas: {
       "30x15x2000": {
-        Branco: "../images/products/frisoJuncao.jpg",
-        Preto: "../images/products/frisoJuncao.jpg",
-        Acetinado: "../images/products/frisoJuncao.jpg",
+        Branco: "../images/products/frisoJuncao_branco.jpg",
+        Preto: "../images/products/frisoJuncao_preto.jpg",
+        Acetinado: "../images/products/frisoSoleira_acetinado.jpg",
       },
     },
     image: "../images/products/frisoJuncao.jpg",
@@ -340,14 +340,14 @@ const products = {
       "Estrutura de alumínio com difusor acrílico, projetada para acomodar fitas LED e ser fixada diretamente na superfície (teto, parede ou móveis), sem necessidade de cortes ou nichos",
     medidas: {
       "17x17x2000": {
-        Branco: "../images/products/ledSobrepor.jpeg",
-        Preto: "../images/products/ledSobrepor.jpeg",
-        Acetinado: "../images/products/ledSobrepor.jpeg",
+        Branco: "../images/products/ledSobrepor_branco.jpeg",
+        Preto: "../images/products/ledSobrepor_preto.jpeg",
+        Acetinado: "../images/products/ledSobrepor_acetinado.jpeg",
       },
       "17x7x3000": {
-        Branco: "../images/products/ledSobrepor.jpeg",
-        Preto: "../images/products/ledSobrepor.jpeg",
-        Acetinado: "../images/products/ledSobrepor.jpeg",
+        Branco: "../images/products/ledSobrepor_branco.jpeg",
+        Preto: "../images/products/ledSobrepor_preto.jpeg",
+        Acetinado: "../images/products/ledSobrepor_acetinado.jpeg",
       },
     },
     image: "../images/products/ledSobrepor.jpeg",
@@ -382,14 +382,14 @@ const products = {
       "O perfil LED de embutir é uma estrutura linear de alumínio, projetada para ser fixada dentro de superfícies como paredes ou tetos, sem necessidade de rebaixamento. Ele acomoda fitas de LED, oferecendo iluminação linear difusa, clean e moderna.",
     medidas: {
       "24x7x2000": {
-        Branco: "../images/products/ledBabyEmbutir.jpg",
-        Preto: "../images/products/ledBabyEmbutir.jpg",
-        Acetinado: "../images/products/ledBabyEmbutir.jpg",
+        Branco: "../images/products/ledBabyEmbutir_branco.jpg",
+        Preto: "../images/products/ledBabyEmbutir_preto.jpg",
+        Acetinado: "../images/products/ledBabyEmbutir_acetinado.jpg",
       },
       "24x7x3000": {
-        Branco: "../images/products/ledBabyEmbutir.jpg",
-        Preto: "../images/products/ledBabyEmbutir.jpg",
-        Acetinado: "../images/products/ledBabyEmbutir.jpg",
+        Branco: "../images/products/ledBabyEmbutir_branco.jpg",
+        Preto: "../images/products/ledBabyEmbutir_preto.jpg",
+        Acetinado: "../images/products/ledBabyEmbutir_acetinado.jpg",
       },
     },
     image: "../images/products/ledBabyEmbutir.jpg",
@@ -422,29 +422,29 @@ const products = {
       "Kit completo para instalação de corrimão chato, incluindo peças e acessórios necessários para a montagem.",
     medidas: {
       1000: {
-        Branco: "../images/products/corrimaoChato.jpg",
-        Preto: "../images/products/corrimaoChato.jpg",
-        Polido: "../images/products/corrimaoChato.jpg",
+        Branco: "../images/products/corrimaoChato_branco.jpg",
+        Preto: "../images/products/corrimaoChato_preto.jpg",
+        Polido: "../images/products/corrimaoChato_polido.jpg",
       },
       1500: {
-        Branco: "../images/products/corrimaoChato.jpg",
-        Preto: "../images/products/corrimaoChato.jpg",
-        Polido: "../images/products/corrimaoChato.jpg",
+        Branco: "../images/products/corrimaoChato_branco.jpg",
+        Preto: "../images/products/corrimaoChato_preto.jpg",
+        Polido: "../images/products/corrimaoChato_polido.jpg",
       },
       2000: {
-        Branco: "../images/products/corrimaoChato.jpg",
-        Preto: "../images/products/corrimaoChato.jpg",
-        Polido: "../images/products/corrimaoChato.jpg",
+        Branco: "../images/products/corrimaoChato_branco.jpg",
+        Preto: "../images/products/corrimaoChato_preto.jpg",
+        Polido: "../images/products/corrimaoChato_polido.jpg",
       },
       3000: {
-        Branco: "../images/products/corrimaoChato.jpg",
-        Preto: "../images/products/corrimaoChato.jpg",
-        Polido: "../images/products/corrimaoChato.jpg",
+        Branco: "../images/products/corrimaoChato_branco.jpg",
+        Preto: "../images/products/corrimaoChato_preto.jpg",
+        Polido: "../images/products/corrimaoChato_polido.jpg",
       },
       4000: {
-        Branco: "../images/products/corrimaoChato.jpg",
-        Preto: "../images/products/corrimaoChato.jpg",
-        Polido: "../images/products/corrimaoChato.jpg",
+        Branco: "../images/products/corrimaoChato_branco.jpg",
+        Preto: "../images/products/corrimaoChato_preto.jpg",
+        Polido: "../images/products/corrimaoChato_polido.jpg",
       },
     },
     image: "../images/products/corrimaoChato.jpg",
@@ -458,29 +458,29 @@ const products = {
       "Kit completo para instalação de corrimão redondo, incluindo peças e acessórios necessários para a montagem.",
     medidas: {
       1000: {
-        Branco: "../images/products/corrimaoRedondo.jpg",
-        Preto: "../images/products/corrimaoRedondo.jpg",
-        Polido: "../images/products/corrimaoRedondo.jpg",
+        Branco: "../images/products/corrimaoRedondo_branco.jpg",
+        Preto: "../images/products/corrimaoRedondo_preto.jpg",
+        Polido: "../images/products/corrimaoRedondo_polido.jpg",
       },
       1500: {
-        Branco: "../images/products/corrimaoRedondo.jpg",
-        Preto: "../images/products/corrimaoRedondo.jpg",
-        Polido: "../images/products/corrimaoRedondo.jpg",
+        Branco: "../images/products/corrimaoRedondo_branco.jpg",
+        Preto: "../images/products/corrimaoRedondo_preto.jpg",
+        Polido: "../images/products/corrimaoRedondo_polido.jpg",
       },
       2000: {
-        Branco: "../images/products/corrimaoRedondo.jpg",
-        Preto: "../images/products/corrimaoRedondo.jpg",
-        Polido: "../images/products/corrimaoRedondo.jpg",
+        Branco: "../images/products/corrimaoRedondo_branco.jpg",
+        Preto: "../images/products/corrimaoRedondo_preto.jpg",
+        Polido: "../images/products/corrimaoRedondo_polido.jpg",
       },
       3000: {
-        Branco: "../images/products/corrimaoRedondo.jpg",
-        Preto: "../images/products/corrimaoRedondo.jpg",
-        Polido: "../images/products/corrimaoRedondo.jpg",
+        Branco: "../images/products/corrimaoRedondo_branco.jpg",
+        Preto: "../images/products/corrimaoRedondo_preto.jpg",
+        Polido: "../images/products/corrimaoRedondo_polido.jpg",
       },
       4000: {
-        Branco: "../images/products/corrimaoRedondo.jpg",
-        Preto: "../images/products/corrimaoRedondo.jpg",
-        Polido: "../images/products/corrimaoRedondo.jpg",
+        Branco: "../images/products/corrimaoRedondo_branco.jpg",
+        Preto: "../images/products/corrimaoRedondo_preto.jpg",
+        Polido: "../images/products/corrimaoRedondo_polido.jpg",
       },
     },
     image: "../images/products/corrimaoRedondo.jpg",
@@ -1160,28 +1160,28 @@ const products = {
       "Um vedante para porta (ou veda porta) é um acessório instalado na parte inferior da porta para cobrir a fresta entre ela e o piso. Ele serve para bloquear a entrada de poeira, insetos, água, ruídos e ar frio/quente, além de ajudar a manter a temperatura interna e aumentar a eficiência do ar-condicionado.",
     medidas: {
       "18 x 50 x 700": {
-        Branco: "../images/products/vedantePorta.jpg",
-        Preto: "../images/products/vedantePorta.jpg",
+        Branco: "../images/products/vedantePorta_branco.jpg",
+        Preto: "../images/products/vedantePorta_preto.jpg",
         Brilhante: "../images/products/vedantePorta.jpg",
       },
       "18 x 50 x 800": {
-        Branco: "../images/products/vedantePorta.jpg",
-        Preto: "../images/products/vedantePorta.jpg",
+        Branco: "../images/products/vedantePorta_branco.jpg",
+        Preto: "../images/products/vedantePorta_preto.jpg",
         Brilhante: "../images/products/vedantePorta.jpg",
       },
       "18 x 50 x 900": {
-        Branco: "../images/products/vedantePorta.jpg",
-        Preto: "../images/products/vedantePorta.jpg",
+        Branco: "../images/products/vedantePorta_branco.jpg",
+        Preto: "../images/products/vedantePorta_preto.jpg",
         Brilhante: "../images/products/vedantePorta.jpg",
       },
       "18 x 50 x 1000": {
-        Branco: "../images/products/vedantePorta.jpg",
-        Preto: "../images/products/vedantePorta.jpg",
+        Branco: "../images/products/vedantePorta_branco.jpg",
+        Preto: "../images/products/vedantePorta_preto.jpg",
         Brilhante: "../images/products/vedantePorta.jpg",
       },
       "18 x 50 x 1200": {
-        Branco: "../images/products/vedantePorta.jpg",
-        Preto: "../images/products/vedantePorta.jpg",
+        Branco: "../images/products/vedantePorta_branco.jpg",
+        Preto: "../images/products/vedantePorta_preto.jpg",
         Brilhante: "../images/products/vedantePorta.jpg",
       },
     },
@@ -1322,28 +1322,35 @@ const products = {
       "Um varão extensível é uma haste ajustável, geralmente de metal (aço inox ou alumínio), projetada para instalação fácil e rápida por pressão, sem a necessidade de furar paredes, pregos ou parafusos. É ideal para cortinas de box, banheiro, pia, armários ou guarda-roupas, adaptando-se a diferentes vãos",
     medidas: {
       "30 x 30 x 900": {
-        Branco: "../images/products/varaoExtensivel.jpg",
+        Branco: "../images/products/varaoExtensivel_Branco.jpg",
+        Preto: "../images/products/varaoExtensivel_preto.jpg",
       },
       "30 x 30 x 1050": {
-        Branco: "../images/products/varaoExtensivel.jpg",
+        Branco: "../images/products/varaoExtensivel_Branco.jpg",
+        Preto: "../images/products/varaoExtensivel_preto.jpg",
       },
       "30 x 30 x 1200": {
-        Branco: "../images/products/varaoExtensivel.jpg",
+        Branco: "../images/products/varaoExtensivel_Branco.jpg",
+        Preto: "../images/products/varaoExtensivel_preto.jpg",
       },
       "30 x 30 x 1350": {
-        Branco: "../images/products/varaoExtensivel.jpg",
+        Branco: "../images/products/varaoExtensivel_Branco.jpg",
+        Preto: "../images/products/varaoExtensivel_preto.jpg",
       },
       "30 x 30 x 1500": {
-        Branco: "../images/products/varaoExtensivel.jpg",
+        Branco: "../images/products/varaoExtensivel_Branco.jpg",
+        Preto: "../images/products/varaoExtensivel_preto.jpg",
       },
       "30 x 30 x 1650": {
-        Branco: "../images/products/varaoExtensivel.jpg",
+        Branco: "../images/products/varaoExtensivel_Branco.jpg",
+        Preto: "../images/products/varaoExtensivel_preto.jpg",
       },
       "30 x 30 x 1800": {
-        Branco: "../images/products/varaoExtensivel.jpg",
+        Branco: "../images/products/varaoExtensivel_Branco.jpg",
+        Preto: "../images/products/varaoExtensivel_preto.jpg",
       },
     },
-    image: "../images/products/varaoExtensivel.jpg",
+    image: "../images/products/varaoExtensivel_Branco.jpg",
     cardImage:
       "/industrial-but-responsive/src/public/images/products/varaoExtensivel.jpg",
   },
@@ -1689,6 +1696,34 @@ const products = {
     image: "../images/products/emendaVarao.jpg",
     cardImage:
       "/industrial-but-responsive/src/public/images/products/cards/71.jpg",
+  },
+  72: {
+    name: "Régua Ergonômica",
+    category: "Construção Civil",
+    description: "",
+    medidas: {
+      Padrão: {
+        Branco: "../images/products/reguaErgonomica.jpg",
+      },
+    },
+    image: "../images/products/reguaErgonomica.jpg",
+    cardImage:
+      "/industrial-but-responsive/src/public/images/products/reguaErgonomica.jpg",
+  },
+  73: {
+    name: "Kit Prateleira MDF",
+    category: "Construção Civil",
+    description: "",
+    medidas: {
+      Padrão: {
+        Amadeirado: "../images/products/kitPrateleiraMDF_amadeirado.jpg",
+        Preto: "../images/products/kitPrateleiraMDF_preto.jpg",
+        Amadeirado: "../images/products/kitPrateleiraMDF_amadeirado.jpg",
+      },
+    },
+    image: "../images/products/kitPrateleiraMDF_amadeirado.jpg",
+    cardImage:
+      "/industrial-but-responsive/src/public/images/products/kitPrateleiraMDF_amadeirado.jpg",
   },
 };
 
