@@ -870,7 +870,12 @@ hr {
     font-size: 3rem;
     margin-bottom: 100px;
   }
-
+  .catalogue .card {
+    height: 5em;
+    width: 5em;
+    font-size: 2rem;
+    border: solid 2px;
+  }
   .about {
     flex-direction: column;
     margin-top: 10rem;
